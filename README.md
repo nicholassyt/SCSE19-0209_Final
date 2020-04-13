@@ -11,6 +11,8 @@ Open the browser and navigate to http://127.0.0.1:5000/
 The JSON files to merge should be in \SCSE19-0209_Final\scripts\mergeSchema\json_to_merge
 The merged JSON file SCSE19_0209.json should be in \SCSE19-0209_Final\scripts\mergeSchema\json_merged
 
+The JSON files can be downloaded from https://drive.google.com/open?id=1ufQ4ZnJAR1CzXR69zAtNQbHfrvMB7--u
+
 To merge:
 Select Merge from the interface.
 The JSON files in the folder json_to_merge would appear in a list.
