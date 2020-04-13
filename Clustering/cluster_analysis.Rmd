@@ -1,0 +1,400 @@
+---
+title: "Cluster Analysis"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r warning=FALSE, echo=FALSE}
+library(pals)
+myPal <- glasbey()
+```
+
+
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+cluster0 <- read.csv("cluster0.csv", header = TRUE)
+```
+
+# Cluster 0
+## There are 2,618 incidents in Cluster 0 
+
+### The country most affected by cyber security incidents in this cluster are the United States of America, followed by the United Kingdom and Canada.
+
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+tbl <- with(cluster0, table(country))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 0 Countries")
+```
+
+
+### The industries most affected by cyber security incidents in this cluster are Medical, Education and Government industries.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+tbl <- with(cluster0, table(industry))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 0 Industries")
+```
+
+### The objectives of cyber security incidents in this cluster are Financial gain, Thrill and Damage to Status. Interestingly, null is the highest. This means that certain incidents do not have any objective.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+tbl <- with(cluster0, table(objectives))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 0 Objectives")
+```
+
+### The tools used for cyber security incidents in this cluster are Physical attack or Script.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+tbl <- with(cluster0, table(tool))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 0 Tools")
+```
+
+### The vulnerabilities exploited for cyber security incidents in this cluster are through configurations to the Network, Phone and LAN. There is Physical access as well.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+tbl <- with(cluster0, table(vulnerability))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 0 Vulnerabilities")
+```
+
+### The actions made by the actors of cyber security incidents in this cluster are mostly Physical in nature, especially Theft.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+tbl <- with(cluster0, table(action))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 0 Actions")
+```
+
+### The unauthorized results of cyber security incidents in this cluster are related to Theft and to the Disclosure or Corruption of Information.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+tbl <- with(cluster0, table(unauthorized_result))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 0 Unauthorized Results")
+
+```
+
+### There are 19,108,361,395 data records affected. This is a large amount of records affected, in comparison to other clusters.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+tbl <- with(cluster0, table(records_affected))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 0 Records Affected")
+toSum <- as.numeric(as.character(cluster0$records_affected))
+sum(toSum, na.rm = TRUE)
+```
+
+### The monetary loss by victims in this cluster amounts to $522,733,990. This is a large amount of money lost, in comparsion to other clusters. However, not every victim in this cluster suffered monetary losses.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+tbl <- with(cluster0, table(monetary_loss))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 0 Monetary Loss")
+toSum <- as.numeric(as.character(cluster0$monetary_loss))
+sum(toSum, na.rm = TRUE)
+```
+
+# Cluster 1
+## There are 1,574 incidents in Cluster 1 
+
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+cluster1 <- read.csv("cluster1.csv", header = TRUE)
+```
+
+
+### The country most affected by cyber security incidents in this cluster are the United States of America, followed by Canada and the United Kingdom.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster1, table(country))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 1 Countries")
+```
+
+### The industries most affected by cyber security incidents in this cluster are Medical, Retailer and Finance.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster1, table(industry))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 1 Industries")
+
+```
+
+
+### The objectives of cyber security incidents in this cluster are Financial gain, Thrill and Grudge.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster1, table(objectives))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 1 Objectives")
+
+```
+
+
+### The tools used for cyber security incidents in this cluster are tools that involve the Exchange of Information such as C2 servers and Scripts such as Ransomware and SQL Injections.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster1, table(tool))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 1 Tools")
+
+```
+
+
+### The vulnerabilities exploited for cyber security incidents in this cluster are mainly through communications channels, such as email and phone, and through Websites and web applications. 
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster1, table(vulnerability))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 1 Vulnerabilities")
+
+```
+
+
+### The actions made by the actors of cyber security incidents in this cluster are mostly Physical in nature, especially Theft. Spoofing and phishing through emails occur as well.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster1, table(action))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 1 Actions")
+```
+
+
+### The unauthorized results of cyber security incidents in this cluster are related to the Disclosure of Information. Data is exfiltrated or stolen.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster1, table(unauthorized_result))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 1 Unauthorized Results")
+```
+
+### There are 1,419,975,775 data records affected. This is a lesser amount of records affected, in comparison to other clusters.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster1, table(records_affected))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 1 Records Affected")
+toSum <- as.numeric(as.character(cluster1$records_affected))
+sum(toSum, na.rm = TRUE)
+```
+
+
+### The monetary loss by victims in this cluster amounts to $8,325,285. This is lesser amount of money lost, in comparison to other clusters. Moreover, not every victim in this cluster suffered monetary losses.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster1, table(monetary_loss))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 1 Monetary Loss")
+toSum <- as.numeric(as.character(cluster1$monetary_loss))
+sum(toSum, na.rm = TRUE)
+```
+
+# Cluster 2
+## There are 12,768 incidents in Cluster 2 
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+cluster2 <- read.csv("cluster2.csv", header = TRUE)
+```
+
+
+### The country most affected by cyber security incidents in this cluster are the United States of America, followed by the United Kingdom and Canada. There is a larger mix of countries.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.6)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster2, table(country))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 2 Countries")
+```
+
+
+### The industries most affected by cyber security incidents in this cluster are Medical, Education and Civil services. There is a larger mix of industries.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.6)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster2, table(industry))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 2 Industries")
+```
+
+
+
+### The objectives of cyber security incidents in this cluster are Financial Gain, Ideology, Thrill. There is a larger mix of objectives. Interestingly, null is the highest. This means that certain incidents do not have any objective.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.6)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster2, table(objectives))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 2 Objectives")
+```
+
+
+### There is a large mix of tools used for cyber security incidents in this cluster.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.6)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster2, table(tool))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 2 Tools")
+```
+
+### There is a large mix of vulnerabilities exploited for cyber security incidents in this cluster.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.6)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster2, table(vulnerability))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 2 Vulnerabilities")
+```
+
+### There is a large mix of actions in this cluster.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.6)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster2, table(action))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 2 Actions")
+```
+
+### There is a large mix of unauthorized results in this cluster.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.6)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster2, table(unauthorized_result))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 2 Unauthorized Results")
+```
+
+### There are 29,100,371,312 data records affected. This is a large amount of records affected, in comparison to other clusters.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.6)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster2, table(records_affected))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 2 Records Affected")
+toSum <- as.numeric(as.character(cluster2$records_affected))
+sum(toSum, na.rm = TRUE)
+
+```
+
+
+### The monetary loss by victims in this cluster amounts to is $1.003649e+12 or $1,003,649,000,000. This is a large amount of money lost, in comparison to other clusters.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.6)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster2, table(monetary_loss))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 2 Monetary Loss")
+toSum <- as.numeric(as.character(cluster2$monetary_loss))
+sum(toSum, na.rm = TRUE)
+```
+
+# Cluster 3 
+## There are 2,771 incidents in Cluster 3 
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+cluster3 <- read.csv("cluster3.csv", header = TRUE)
+```
+
+
+### The country most affected by cyber security incidents in this cluster are the United States of America, followed by the United Kingdom and Canada.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster3, table(country))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 3 Countries")
+
+```
+
+### The industries most affected by cyber security incidents in this cluster are Medical, social services, Finance.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster3, table(industry))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 3 Industries")
+```
+
+### The objectives of cyber security incidents in this cluster are Financial gain, Thrill and Damage to Status.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster3, table(objectives))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 3 Objectives")
+```
+
+### The tools used for cyber security incidents in this cluster are tools that involve Physical skimmers and the disabling of controls. Scripts such as Ransomware and Extortion are involved as well.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster3, table(tool))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 3 Tools")
+```
+
+### The vulnerabilities exploited for cyber security incidents in this cluster are Process carelessness, Physical and involve Partners.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster3, table(vulnerability))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 3 Vulnerabilities")
+```
+
+
+### The actions made by the actors of cyber security incidents in this cluster are mostly Physical in nature, especially Theft. Carelessness is involved as well.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster3, table(action))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 3 Actions")
+```
+
+### The unauthorized results of cyber security incidents in this cluster are related to Theft and to the Disclosure or Corruption of Information.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster3, table(unauthorized_result))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 3 Unauthorized Results")
+```
+
+
+### There are 1,435,845,347 data records affected. This is a lesser amount of records affected, in comparison to other clusters.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster3, table(records_affected))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 3 Records Affected")
+toSum <- as.numeric(as.character(cluster3$records_affected))
+sum(toSum, na.rm = TRUE)
+
+```
+
+
+### The monetary loss by victims in this cluster amounts to $65,388,724. This is lesser amount of money lost, in comparison to other clusters. Moreover, not every victim in this cluster suffered monetary losses.
+```{r fig.align="center", warning=FALSE, echo=FALSE}
+par(cex = 0.7)
+par(mar=c(17, 3, 3, 0))
+
+tbl <- with(cluster3, table(monetary_loss))
+barplot(sort(tbl, decreasing = TRUE), beside = TRUE, legend = FALSE, col = myPal, log="y",las=2, main="Cluster 3 Monetary Loss")
+toSum <- as.numeric(as.character(cluster3$monetary_loss))
+sum(toSum, na.rm = TRUE)
+
+```

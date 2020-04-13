@@ -1,0 +1,1575 @@
+,typeId,country,industry,objectives,tool,vulnerability,action,records_affected,unauthorized_result,monetary_loss,cluster
+1293,prdb-0,US,Finance,null,null,Design Software,null,100000,null,null,1
+1297,prdb-4,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1310,prdb-17,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1318,prdb-25,US,Finance,null,null,Design Software Configuration Phone,Physical Theft,0,null,null,1
+1369,prdb-76,US,Finance,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+1377,prdb-84,US,Finance,null,null,Configuration Phone,Physical Theft,0,null,null,1
+1388,prdb-95,US,Finance,null,null,Configuration Website,null,11,null,null,1
+1396,prdb-103,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1401,prdb-108,US,Finance,null,null,Configuration Phone,null,106,null,null,1
+1418,prdb-125,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1429,prdb-136,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1438,prdb-145,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1448,prdb-155,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1452,prdb-159,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1454,prdb-161,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1465,prdb-172,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1468,prdb-175,US,Finance,null,null,Implementation Email Configuration Network,null,11,null,null,1
+1472,prdb-179,US,Finance,null,null,Configuration Phone Website,null,10000,null,null,1
+1502,prdb-209,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1511,prdb-218,US,Finance,null,null,Design Software,null,1000000,null,null,1
+1513,prdb-220,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1533,prdb-240,US,Finance,null,null,Configuration Network,Physical Theft,1100000,null,null,1
+1537,prdb-244,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1553,prdb-260,US,Finance,null,null,Design Software,null,0,null,null,1
+1555,prdb-262,US,Finance,null,null,Physical Documents,Physical Theft,0,null,null,1
+1558,prdb-265,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1563,prdb-270,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1566,prdb-273,US,Finance,null,null,Physical Documents,null,100,null,null,1
+1572,prdb-279,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1586,prdb-293,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1587,prdb-294,US,Finance,null,null,Design Software,null,0,null,null,1
+1593,prdb-300,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1597,prdb-304,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1598,prdb-305,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1600,prdb-307,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1610,prdb-317,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1612,prdb-319,US,Finance,null,null,Configuration Phone,Physical Theft,100,null,null,1
+1615,prdb-322,US,Finance,null,null,Physical Documents,null,100,null,null,1
+1621,prdb-328,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1625,prdb-332,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1636,prdb-343,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1638,prdb-345,US,Finance,null,null,Configuration Phone,Physical Theft,0,null,null,1
+1642,prdb-349,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1647,prdb-354,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1649,prdb-356,US,Finance,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+1651,prdb-358,US,Finance,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+1652,prdb-359,US,Finance,null,null,Configuration Network,null,0,null,null,1
+1653,prdb-360,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1666,prdb-373,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1681,prdb-388,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1683,prdb-390,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1692,prdb-399,US,Finance,null,null,Configuration Network,null,0,null,null,1
+1700,prdb-407,US,Finance,null,null,Implementation Malfunction,null,0,null,null,1
+1702,prdb-409,US,Finance,null,null,Physical Documents,null,100,null,null,1
+1704,prdb-411,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1710,prdb-417,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1711,prdb-418,US,Finance,null,null,Implementation Email Configuration Website,null,0,null,null,1
+1713,prdb-420,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1716,prdb-423,US,Finance,null,null,Design Software,null,0,null,null,1
+1717,prdb-424,US,Finance,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+1718,prdb-425,US,Finance,null,null,Physical Documents Configuration Phone,Physical Theft,0,null,null,1
+1720,prdb-427,US,Finance,null,null,Design Software,null,0,null,null,1
+1724,prdb-431,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1725,prdb-432,US,Finance,null,null,Configuration Network,null,0,null,null,1
+1732,prdb-439,US,Finance,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+1736,prdb-443,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1738,prdb-445,US,Finance,null,null,Physical Documents,Physical Theft,0,null,null,1
+1739,prdb-446,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1751,prdb-458,US,Finance,null,null,Physical Documents Implementation Email,null,0,null,null,1
+1752,prdb-459,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1761,prdb-468,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1770,prdb-477,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1771,prdb-478,US,Finance,null,null,Configuration Network,null,0,null,null,1
+1773,prdb-480,US,Finance,null,null,Configuration Network,null,1000000,null,null,1
+1775,prdb-482,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1779,prdb-486,US,Finance,null,null,Design Web application Implementation Email,null,0,null,null,1
+1782,prdb-489,US,Finance,null,null,Physical Documents,Physical Loss Theft,0,null,null,1
+1787,prdb-494,US,Finance,null,null,Physical Documents Implementation Email,null,0,null,null,1
+1791,prdb-498,US,Finance,null,null,Configuration Phone,Spoof Phishing,0,null,null,1
+1792,prdb-499,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1793,prdb-500,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1794,prdb-501,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1796,prdb-503,US,Finance,null,null,Configuration Phone Network,null,0,null,null,1
+1797,prdb-504,US,Finance,null,Information Exchange Spam,Implementation Email,null,0,null,null,1
+1798,prdb-505,US,Finance,null,null,Configuration Network,null,0,null,null,1
+1799,prdb-506,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1801,prdb-508,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1805,prdb-512,US,Finance,null,null,Configuration Network,null,0,null,null,1
+1807,prdb-514,US,Finance,null,null,Configuration Network,null,0,null,null,1
+1810,prdb-517,US,Finance,null,null,Configuration Network,null,0,null,null,1
+1814,prdb-521,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1817,prdb-524,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1821,prdb-528,US,Finance,null,null,Design Programming error Implementation Email Configuration Website,null,0,null,null,1
+1828,prdb-535,US,Finance,null,null,Design Software Configuration Website,null,0,null,null,1
+1833,prdb-540,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1841,prdb-548,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1845,prdb-552,US,Finance,null,null,Implementation Email Configuration Phone Website,Physical Theft,0,null,null,1
+1848,prdb-555,US,Finance,null,null,Implementation Email Configuration Website,null,0,null,null,1
+1850,prdb-557,US,Finance,null,null,Implementation Email,Physical Theft,0,null,null,1
+1852,prdb-559,US,Finance,null,null,Implementation SMS,null,0,null,null,1
+1853,prdb-560,US,Finance,null,null,Implementation SMS,null,0,null,null,1
+1854,prdb-561,US,Finance,null,null,Implementation Email SMS,null,0,null,null,1
+1855,prdb-562,US,Finance,null,null,Configuration Network,null,0,null,null,1
+1857,prdb-564,US,Finance,null,null,Implementation SMS,null,0,null,null,1
+1858,prdb-565,US,Finance,null,Information Exchange Spam,Physical Documents Implementation Email,null,11,null,null,1
+1860,prdb-567,US,Finance,null,null,Configuration Phone,Spoof Scam,0,null,null,1
+1866,prdb-573,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1868,prdb-575,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1871,prdb-578,US,Finance,null,null,Implementation Email,Spoof Scam,0,null,null,1
+1876,prdb-583,US,Finance,null,null,Design Software Implementation Email Configuration Phone,null,0,null,null,1
+1877,prdb-584,US,Finance,null,null,Configuration Website Misconfiguration,null,0,null,null,1
+1878,prdb-585,US,Finance,null,null,Implementation Email SMS Configuration Network,Spoof Phishing,0,null,null,1
+1879,prdb-586,US,Finance,null,null,Implementation SMS,null,0,null,null,1
+1880,prdb-587,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1881,prdb-588,US,Finance,null,null,Configuration Network,null,0,null,null,1
+1884,prdb-591,US,Finance,null,null,Implementation SMS Configuration Website,null,0,null,null,1
+1886,prdb-593,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1891,prdb-598,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1892,prdb-599,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1894,prdb-601,US,Finance,null,null,Implementation Email,null,1100000,null,null,1
+1897,prdb-604,US,Finance,null,null,Design Software Implementation Email,null,0,null,null,1
+1898,prdb-605,US,Finance,null,null,Configuration Phone,Physical Theft,0,null,null,1
+1899,prdb-606,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1902,prdb-609,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1903,prdb-610,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1906,prdb-613,US,Finance,null,null,Configuration Phone,Physical Theft,0,null,null,1
+1910,prdb-617,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1916,prdb-623,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1917,prdb-624,US,Finance,null,null,Configuration Phone,Physical Theft,0,null,null,1
+1921,prdb-628,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1928,prdb-635,US,Finance,null,null,Physical Documents Design Software Configuration Website,Physical Theft,0,null,null,1
+1933,prdb-640,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1937,prdb-644,US,Finance,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+1938,prdb-645,US,Finance,null,null,Physical Documents Implementation Email Configuration Website,Spoof Phishing,0,null,null,1
+1942,prdb-649,US,Finance,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+1944,prdb-651,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1945,prdb-652,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1946,prdb-653,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1947,prdb-654,US,Finance,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+1952,prdb-659,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1953,prdb-660,US,Finance,null,Script or Program Ransomware,Configuration Phone Network,null,0,null,null,1
+1954,prdb-661,US,Finance,null,null,Implementation Email,Physical Theft,0,null,null,1
+1956,prdb-663,US,Finance,null,Information Exchange Spam,Implementation Email,null,0,null,null,1
+1957,prdb-664,US,Finance,null,null,Design Software Configuration Phone,null,0,null,null,1
+1958,prdb-665,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1963,prdb-670,US,Finance,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+1964,prdb-671,US,Finance,null,null,Design Software,null,0,null,null,1
+1965,prdb-672,US,Finance,null,null,Configuration Website,null,0,null,null,1
+1967,prdb-674,US,Finance,null,null,Design Software,null,0,null,null,1
+1968,prdb-675,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1969,prdb-676,US,Finance,null,null,Implementation Email,null,0,null,null,1
+1972,prdb-679,US,Finance,null,null,Physical Documents Implementation Email Configuration Network,Spoof Phishing,0,null,null,1
+1976,prdb-683,US,Finance,null,Script or Program Ransomware,Configuration Network,null,0,null,null,1
+1980,prdb-687,US,Finance,null,null,Design Software Configuration Network,null,0,null,null,1
+1982,prdb-689,US,Finance,null,null,Configuration Network,null,0,null,null,1
+1984,prdb-691,US,Finance,null,null,Physical Documents,null,0,null,null,1
+1985,prdb-692,US,Finance,null,null,Physical Documents Configuration Network Misconfiguration,null,0,null,null,1
+1986,prdb-693,US,Finance,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+1987,prdb-694,US,Finance,null,null,Physical Documents Design Software Implementation Email Configuration Phone,null,0,null,null,1
+1988,prdb-695,US,Finance,null,null,Physical Documents Design Software Implementation Email Configuration Phone,null,0,null,null,1
+1990,prdb-697,US,Finance,null,null,Configuration Phone Network,null,0,null,null,1
+1994,prdb-701,US,Finance,null,null,Configuration Network,null,0,null,null,1
+1997,prdb-704,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+1999,prdb-706,US,Finance,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+2001,prdb-708,US,Finance,null,null,Implementation Email,null,0,null,null,1
+2003,prdb-710,US,Finance,null,Information Exchange Spam,Physical Documents Implementation Email Configuration Website,null,0,null,null,1
+2004,prdb-711,US,Finance,null,null,Physical Documents Implementation Email Configuration Phone Network,null,0,null,null,1
+2005,prdb-712,US,Finance,null,null,Physical Documents,null,0,null,null,1
+2008,prdb-715,US,Finance,null,null,Design Software Configuration Website,Physical Theft,0,null,null,1
+2037,prdb-744,US,Finance,null,null,Implementation Email,Spoof Phishing,109,null,null,1
+2087,prdb-794,US,Telecommunications,null,null,Implementation Email,null,0,null,null,1
+2103,prdb-810,US,Manufacturing,null,null,Implementation Email,Physical Theft,100,null,null,1
+2108,prdb-815,US,Event Organizers,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2109,prdb-816,US,Utilities,null,null,Physical Documents,null,0,null,null,1
+2112,prdb-819,US,Publisher,null,null,Configuration Phone,null,0,null,null,1
+2164,prdb-871,US,Information Technology,null,null,Physical Documents,null,0,null,null,1
+2175,prdb-882,US,Publisher,null,null,Configuration Website,null,0,null,null,1
+2177,prdb-884,US,Information Technology,null,null,Configuration Network,null,0,null,null,1
+2192,prdb-899,US,Information Technology,null,null,Configuration Phone,null,0,null,null,1
+2198,prdb-905,US,Information Technology,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2208,prdb-915,US,Telecommunications,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+2209,prdb-916,US,Real Estate,null,null,Configuration Phone,null,0,null,null,1
+2210,prdb-917,US,Telecommunications,null,null,Implementation Email,null,0,null,null,1
+2215,prdb-922,US,Consulting Services,null,null,Physical Documents Partner,null,0,null,null,1
+2221,prdb-928,US,Information Technology,null,null,Design Software Configuration Phone,null,0,null,null,1
+2251,prdb-958,US,Legal Services,null,null,Physical Documents,null,0,null,null,1
+2266,prdb-973,US,Information Technology,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+2269,prdb-976,US,Oil and Gas,null,null,Implementation Email,null,0,null,null,1
+2271,prdb-978,US,Real Estate,null,null,Configuration Phone,null,0,null,null,1
+2273,prdb-980,US,Associations,null,null,Design Software,null,0,null,null,1
+2276,prdb-983,US,Information Technology,null,null,Design Software,null,0,null,null,1
+2279,prdb-986,US,Information Technology,null,null,Physical Documents,null,0,null,null,1
+2280,prdb-987,US,Telecommunications,null,null,Configuration Phone,null,0,null,null,1
+2288,prdb-995,US,Real Estate,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+2289,prdb-996,US,Telecommunications,null,null,Physical Documents,null,0,null,null,1
+2293,prdb-1000,US,Employment Services,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2297,prdb-1004,US,Employment Services,null,null,Physical Documents,null,0,null,null,1
+2300,prdb-1007,US,Finance,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+2315,prdb-1022,US,Information Technology,null,null,Configuration Phone,null,0,null,null,1
+2317,prdb-1024,US,Information Technology,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2321,prdb-1028,US,Telecommunications,null,null,Configuration Phone,null,0,null,null,1
+2330,prdb-1037,US,Consulting Services,null,null,Configuration Network,null,0,null,null,1
+2339,prdb-1046,US,Telecommunications,null,null,Physical Documents,null,0,null,null,1
+2343,prdb-1050,US,Tourism,null,null,Implementation Email,null,110000,null,null,1
+2345,prdb-1052,US,Information Technology,null,null,Design Software,null,1017,null,null,1
+2349,prdb-1056,US,Telecommunications,null,null,Configuration Phone,null,0,null,null,1
+2350,prdb-1057,US,Insurance,null,null,Configuration Website,null,0,null,null,1
+2353,prdb-1060,US,Entertainment,null,null,Implementation Email,null,1000,null,null,1
+2359,prdb-1066,US,Information Technology,null,Physical Attack Tampering Script or Program Extortion,Implementation Email,null,0,null,null,1
+2363,prdb-1070,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2366,prdb-1073,US,Real Estate,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+2368,prdb-1075,US,Tourism,null,null,Design Software,null,0,null,null,1
+2369,prdb-1076,US,Employment Services,null,null,Implementation Email,null,0,null,null,1
+2371,prdb-1078,US,Finance,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+2372,prdb-1079,US,Tourism,null,null,Implementation Email,null,0,null,null,1
+2379,prdb-1086,US,Entertainment,null,null,Configuration Website,null,100000,null,null,1
+2385,prdb-1092,US,Information Technology,null,null,Configuration Phone,null,0,null,null,1
+2386,prdb-1093,US,Legal Services,null,null,Physical Documents,null,0,null,null,1
+2389,prdb-1096,US,Sport,null,null,Physical Documents,null,0,null,null,1
+2391,prdb-1098,US,Entertainment,null,null,Implementation Email Configuration Phone Website,null,1000000,null,null,1
+2392,prdb-1099,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2394,prdb-1101,US,Sport,null,null,Physical Documents,null,0,null,null,1
+2400,prdb-1107,US,Entertainment,null,null,Configuration Website,null,0,null,null,1
+2412,prdb-1119,US,Legal Services,null,null,Configuration Phone,null,0,null,null,1
+2416,prdb-1123,US,Manufacturing,null,null,Physical Documents,null,0,null,null,1
+2428,prdb-1135,US,Telecommunications,null,null,Configuration Phone,null,0,null,null,1
+2429,prdb-1136,US,Information Technology,null,null,Implementation Email Configuration Website,Spoof Phishing,10000,null,null,1
+2434,prdb-1141,US,Other Services,null,null,Configuration Phone,null,0,null,null,1
+2436,prdb-1143,US,Other Services,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+2444,prdb-1151,US,Employment Services,null,null,Physical Documents Implementation Email Configuration Phone,null,0,null,null,1
+2448,prdb-1155,US,Information Technology,null,Script or Program Backdoor,Configuration Website,Spoof Scam,0,null,null,1
+2451,prdb-1158,US,Information Technology,null,null,Implementation Email Configuration Network Website,null,0,null,null,1
+2457,prdb-1164,US,Sport,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+2464,prdb-1171,US,Utilities,null,null,Configuration Phone,null,100,null,null,1
+2468,prdb-1175,US,Associations,null,null,Design Web application,null,0,null,null,1
+2470,prdb-1177,US,Entertainment,null,null,Implementation Email,null,0,null,null,1
+2472,prdb-1179,US,Information Technology,null,null,Implementation Email,null,10704,null,null,1
+2477,prdb-1184,US,Engineering Services,null,null,Implementation Email,null,0,null,null,1
+2478,prdb-1185,US,Civil Services,null,null,Implementation Email,null,0,null,null,1
+2485,prdb-1192,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2487,prdb-1194,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2488,prdb-1195,US,Information Technology,null,null,Design Software,null,0,null,null,1
+2500,prdb-1207,US,Manufacturing,null,null,Configuration Website,null,0,null,null,1
+2504,prdb-1211,US,Printing Services,null,null,Implementation Email Configuration Website,null,0,null,null,1
+2506,prdb-1213,US,Information Technology,null,null,Physical Documents Implementation Email Configuration Network,null,0,null,null,1
+2507,prdb-1214,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2511,prdb-1218,US,Delivery Services,null,null,Implementation Email Configuration Website,null,1134,null,null,1
+2513,prdb-1220,US,Tourism,null,null,Implementation Email,null,0,null,null,1
+2514,prdb-1221,US,Information Technology,null,null,Implementation Email Configuration Network,null,0,null,null,1
+2516,prdb-1223,US,Real Estate,null,null,Implementation Email,null,0,null,null,1
+2517,prdb-1224,US,Construction,null,null,Physical Documents,null,0,null,null,1
+2519,prdb-1226,US,Delivery Services,null,null,Physical Documents,null,100,null,null,1
+2520,prdb-1227,US,Information Technology,null,null,Design Software Configuration Website,null,0,null,null,1
+2522,prdb-1229,US,Information Technology,null,null,Implementation Email Configuration Phone,null,1000,null,null,1
+2526,prdb-1233,US,Government,null,null,Design Software,Physical Theft,0,null,null,1
+2530,prdb-1237,US,Legal Services,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+2534,prdb-1241,US,Information Technology,null,null,Configuration Phone Network,null,0,null,null,1
+2535,prdb-1242,US,Publisher,null,null,Configuration Website,null,0,null,null,1
+2536,prdb-1243,US,Information Technology,null,null,Configuration Website,null,0,null,null,1
+2537,prdb-1244,US,Information Technology,null,null,Configuration Website,null,0,null,null,1
+2539,prdb-1246,US,Information Technology,null,null,Design Web application Software,null,0,null,null,1
+2542,prdb-1249,US,Entertainment,null,null,Implementation Social media,null,0,null,null,1
+2548,prdb-1255,US,Entertainment,null,null,Implementation Email,Physical Theft,0,null,null,1
+2552,prdb-1259,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2553,prdb-1260,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2560,prdb-1267,US,Consulting Services,null,null,Implementation Email Configuration Website,null,0,null,null,1
+2561,prdb-1268,US,Information Technology,null,null,Design Software Implementation Email,null,0,null,null,1
+2562,prdb-1269,US,Tourism,null,null,Configuration Network,null,0,null,null,1
+2567,prdb-1274,US,Information Technology,null,null,Implementation Email Configuration Website,Spoof Phishing,0,null,null,1
+2575,prdb-1282,US,Publisher,null,null,Configuration Website,null,0,null,null,1
+2578,prdb-1285,US,Airport Operations,null,null,Configuration Phone,Physical Theft,0,null,null,1
+2580,prdb-1287,US,Tourism,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2582,prdb-1289,US,Consulting Services,null,null,Configuration Network,null,0,null,null,1
+2583,prdb-1290,US,Entertainment,null,null,Implementation Email,null,0,null,null,1
+2585,prdb-1292,US,Engineering Services,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+2587,prdb-1294,US,Information Technology,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2594,prdb-1301,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2600,prdb-1307,US,Publisher,null,null,Implementation Email Configuration Phone,Physical Theft,0,null,null,1
+2602,prdb-1309,US,Tourism,null,null,Configuration Phone,null,0,null,null,1
+2607,prdb-1314,US,Publisher,null,null,Implementation Email Configuration Phone Network,null,0,null,null,1
+2613,prdb-1320,US,Information Technology,null,null,Configuration Phone,null,0,null,null,1
+2614,prdb-1321,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2615,prdb-1322,US,Legal Services,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2616,prdb-1323,US,Medical,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+2618,prdb-1325,US,Wholesaler,null,null,Implementation Email SMS Configuration Phone Network,Physical Theft,0,null,null,1
+2620,prdb-1327,US,Consulting Services,null,null,Implementation Email,null,0,null,null,1
+2621,prdb-1328,US,Tourism,null,null,Implementation Email Configuration Website,null,0,null,null,1
+2622,prdb-1329,US,Information Technology,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+2623,prdb-1330,US,Information Technology,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2625,prdb-1332,US,Information Technology,null,null,Implementation Email Configuration Website,null,0,null,null,1
+2633,prdb-1340,US,Insurance,null,null,Implementation Email,Physical Theft,0,null,null,1
+2634,prdb-1341,US,Information Technology,null,Information Exchange Spam,Implementation Email,null,0,null,null,1
+2636,prdb-1343,US,Information Technology,null,null,Implementation Email Configuration Network Website,null,0,null,null,1
+2640,prdb-1347,US,Support Services,null,null,Configuration Phone,null,0,null,null,1
+2641,prdb-1348,US,Retailer,null,null,Implementation Email Configuration Phone Website,Physical Theft,0,null,null,1
+2644,prdb-1351,US,Food Establishment,null,null,Configuration Website,Physical Loss,0,null,null,1
+2646,prdb-1353,US,Employment Services,null,null,Physical Documents Implementation Email Configuration Phone Website,Physical Theft,0,null,null,1
+2648,prdb-1355,US,Other Services,null,null,Implementation Email SMS Configuration Phone,null,0,null,null,1
+2651,prdb-1358,US,Engineering Services,null,null,Configuration Network,null,0,null,null,1
+2653,prdb-1360,US,Information Technology,null,null,Implementation Email Configuration Phone,Spoof Phishing,0,null,null,1
+2654,prdb-1361,US,Airport Operations,null,null,Configuration Network,null,0,null,null,1
+2655,prdb-1362,US,Engineering Services,null,null,Configuration Network,null,0,null,null,1
+2656,prdb-1363,US,Information Technology,null,null,Configuration Website,null,0,null,null,1
+2657,prdb-1364,US,Retailer,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+2659,prdb-1366,US,Information Technology,null,null,Implementation Email Configuration Website,null,0,null,null,1
+2662,prdb-1369,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+2664,prdb-1371,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2666,prdb-1373,US,Legal Services,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2667,prdb-1374,US,Information Technology,null,null,Configuration Phone,null,0,null,null,1
+2670,prdb-1377,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2677,prdb-1384,US,Employment Services,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2678,prdb-1385,US,Other Services,null,null,Design Software Implementation SMS,null,0,null,null,1
+2679,prdb-1386,US,Utilities,null,null,Implementation SMS,Physical Theft,0,null,null,1
+2680,prdb-1387,US,Consulting Services,null,null,Implementation SMS,null,0,null,null,1
+2683,prdb-1390,US,Support Services,null,null,Physical Documents,null,0,null,null,1
+2684,prdb-1391,US,Entertainment,null,null,Implementation SMS,null,0,null,null,1
+2685,prdb-1392,US,Information Technology,null,null,Configuration Network,null,0,null,null,1
+2686,prdb-1393,US,Information Technology,null,null,Configuration Network,Physical Assault Flood DoS,0,null,null,1
+2687,prdb-1394,US,Information Technology,null,null,Configuration Network,Spoof Scam,0,null,null,1
+2688,prdb-1395,US,Consulting Services,null,null,Implementation Email SMS Configuration Phone Website,null,0,null,null,1
+2689,prdb-1396,US,Airport Operations,null,null,Implementation SMS,null,0,null,null,1
+2691,prdb-1398,US,Information Technology,null,null,Implementation Email Configuration Network,Spoof Phishing,0,null,null,1
+2692,prdb-1399,US,Retailer,null,null,Implementation SMS Configuration Website,null,0,null,null,1
+2695,prdb-1402,US,Warehousing and Storage,null,null,Physical Documents,null,0,null,null,1
+2699,prdb-1406,US,Manufacturing,null,null,Configuration Website,null,0,null,null,1
+2701,prdb-1408,US,Wholesaler,null,null,Implementation Email Configuration Phone Website,Physical Theft,0,null,null,1
+2704,prdb-1411,US,Support Services,null,null,Design Software Configuration Website,null,0,null,null,1
+2705,prdb-1412,US,Information Technology,null,null,Physical Documents Design Software Configuration Network,null,11266,null,null,1
+2711,prdb-1418,US,Information Technology,null,null,Configuration Network,null,0,null,null,1
+2712,prdb-1419,US,Information Technology,null,null,Implementation Email Configuration Network,null,0,null,null,1
+2713,prdb-1420,US,Sport,null,null,Physical Documents Implementation Email Configuration Network,null,0,null,null,1
+2715,prdb-1422,US,Repair and Maintenance service,null,null,Implementation Email Configuration Phone,Physical Theft,0,null,null,1
+2718,prdb-1425,US,Information Technology,null,null,Configuration Network,null,0,null,null,1
+2722,prdb-1429,US,Legal Services,null,null,Configuration Phone,null,0,null,null,1
+2725,prdb-1432,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2726,prdb-1433,US,Entertainment,null,null,Implementation Email,null,0,null,null,1
+2727,prdb-1434,US,Information Technology,null,null,Design Software,null,0,null,null,1
+2728,prdb-1435,US,Information Technology,null,null,Configuration Network,Spoof Scam,0,null,null,1
+2730,prdb-1437,US,Support Services,null,null,Implementation Email,null,0,null,null,1
+2732,prdb-1439,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+2733,prdb-1440,US,Research,null,null,Physical Documents Implementation Email,null,0,null,null,1
+2734,prdb-1441,US,Associations,null,null,Implementation Email Configuration Website,null,0,null,null,1
+2735,prdb-1442,US,Entertainment,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2736,prdb-1443,US,Manufacturing,null,null,Physical Documents,Physical Theft,0,null,null,1
+2744,prdb-1451,US,Information Technology,null,null,Configuration Network,Flood DoS,0,null,null,1
+2746,prdb-1453,US,Manufacturing,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2747,prdb-1454,US,Retailer,null,null,Design Software,null,0,null,null,1
+2752,prdb-1459,US,Entertainment,null,null,Implementation Email Configuration Network Website,null,0,null,null,1
+2753,prdb-1460,US,Information Technology,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2754,prdb-1461,US,Information Technology,null,null,Design Software,Spoof Scam Phishing,0,null,null,1
+2756,prdb-1463,US,Entertainment,null,null,Configuration Website,null,0,null,null,1
+2759,prdb-1466,US,Information Technology,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2762,prdb-1469,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2764,prdb-1471,US,Manufacturing,null,null,Configuration Phone,null,0,null,null,1
+2766,prdb-1473,US,Telecommunications,null,null,Implementation Email Social media Configuration Phone Network Website,Spoof Phishing,0,null,null,1
+2770,prdb-1477,US,Information Technology,null,null,Implementation Email Configuration VPN,null,0,null,null,1
+2772,prdb-1479,US,Printing Services,null,null,Implementation Email Configuration Website,Physical Theft,0,null,null,1
+2775,prdb-1482,US,Other Services,null,null,Implementation Email,null,0,null,null,1
+2781,prdb-1488,US,Religious Organization,null,null,Physical Documents,Physical Theft,0,null,null,1
+2782,prdb-1489,US,Information Technology,null,null,Design Software Configuration Network VPN,null,0,null,null,1
+2785,prdb-1492,US,Manufacturing,null,null,Implementation Email Configuration Website,Physical Theft,0,null,null,1
+2786,prdb-1493,US,Delivery Services,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+2787,prdb-1494,US,Information Technology,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2788,prdb-1495,US,Wholesaler,null,null,Configuration Website,Physical Theft,0,null,null,1
+2789,prdb-1496,US,Wholesaler,null,null,Configuration Website,Physical Theft,0,null,null,1
+2790,prdb-1497,US,Sport,null,null,Configuration Phone,null,0,null,null,1
+2794,prdb-1501,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2795,prdb-1502,US,Repair and Maintenance service,null,Information Exchange C2,Configuration Website,null,0,null,null,1
+2796,prdb-1503,US,Repair and Maintenance service,null,Information Exchange C2,Configuration Website,null,0,null,null,1
+2802,prdb-1509,US,Retailer,null,null,Implementation Email Configuration Phone,Physical Theft,0,null,null,1
+2803,prdb-1510,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2805,prdb-1512,US,Information Technology,null,null,Implementation Email Configuration Website,Spoof Phishing,0,null,null,1
+2807,prdb-1514,US,Associations,null,null,Configuration Network,null,0,null,null,1
+2811,prdb-1518,US,Manufacturing,null,null,Configuration Phone,Physical Theft,0,null,null,1
+2813,prdb-1520,US,Tourism,null,null,Configuration Network,null,0,null,null,1
+2814,prdb-1521,US,Information Technology,null,null,Physical Documents Implementation Email,Spoof Scam Phishing,10000,null,null,1
+2815,prdb-1522,US,Construction,null,null,Implementation Email,null,0,null,null,1
+2816,prdb-1523,US,Sport,null,null,Implementation Email,null,0,null,null,1
+2817,prdb-1524,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+2818,prdb-1525,US,Information Technology,null,null,Configuration Network,Flood DoS,0,null,null,1
+2822,prdb-1529,US,Research,null,null,Implementation Email,Spoof Scam Phishing,0,null,null,1
+2823,prdb-1530,US,Warehousing and Storage,null,null,Implementation Email,Spoof Scam Phishing,0,null,null,1
+2826,prdb-1533,US,Information Technology,null,null,Design Software Implementation Email,Spoof Scam Phishing,0,null,null,1
+2829,prdb-1536,US,Information Technology,null,null,Configuration Network,null,0,null,null,1
+2832,prdb-1539,US,Other Services,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2833,prdb-1540,US,Information Technology,null,null,Implementation Email Configuration Phone,null,1100000,null,null,1
+2834,prdb-1541,US,Wholesaler,null,null,Design Software,null,0,null,null,1
+2835,prdb-1542,US,Consulting Services,null,null,Configuration Website,null,0,null,null,1
+2836,prdb-1543,US,Support Services,null,null,Configuration Phone Network,Physical Loss Theft,0,null,null,1
+2837,prdb-1544,US,Other Services,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+2838,prdb-1545,US,Publisher,null,null,Configuration Website,null,0,null,null,1
+2839,prdb-1546,US,Real Estate,null,null,Design Software,null,0,null,null,1
+2840,prdb-1547,US,Information Technology,null,null,Design Software Configuration Website,null,0,null,null,1
+2841,prdb-1548,US,Religious Organization,null,null,Implementation Email,Spoof Scam Phishing,0,null,null,1
+2844,prdb-1551,US,Retailer,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+2845,prdb-1552,US,Entertainment,null,Script or Program Extortion,Implementation Email,Physical Theft,0,null,null,1
+2850,prdb-1557,US,Sport,null,null,Implementation Email,null,0,null,null,1
+2862,prdb-1569,US,Printing Services,null,null,Implementation Email,null,0,null,null,1
+2863,prdb-1570,US,Information Technology,null,null,Implementation Email Configuration Website,null,0,null,null,1
+2865,prdb-1572,US,Publisher,null,null,Implementation Email Configuration Website,null,0,null,null,1
+2866,prdb-1573,US,Manufacturing,null,null,Configuration Website,null,0,null,null,1
+2868,prdb-1575,US,Tourism,null,null,Configuration Network,null,0,null,null,1
+2869,prdb-1576,US,Consulting Services,null,null,Physical Documents Implementation Email,null,0,null,null,1
+2870,prdb-1577,US,NPO,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2871,prdb-1578,US,Entertainment,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+2873,prdb-1580,US,Research,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+2876,prdb-1583,US,Political Organization,null,null,Configuration Network,null,0,null,null,1
+2879,prdb-1586,US,Information Technology,null,null,Design Software Configuration Network,null,0,null,null,1
+2882,prdb-1589,US,Tourism,null,null,Configuration Website,null,0,null,null,1
+2884,prdb-1591,US,Wholesaler,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2886,prdb-1593,US,Manufacturing,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2888,prdb-1595,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+2894,prdb-1601,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+2898,prdb-1605,US,Food Establishment,null,null,Design Software,null,0,null,null,1
+2900,prdb-1607,US,Support Services,null,Information Exchange Spam,Implementation Email,Spoof Phishing,0,null,null,1
+2901,prdb-1608,US,Information Technology,null,null,Implementation Email Configuration Website,null,0,null,null,1
+2903,prdb-1610,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2904,prdb-1611,US,Finance,null,null,Configuration Phone,null,0,null,null,1
+2907,prdb-1614,US,Information Technology,null,null,Implementation Email Configuration Website,null,0,null,null,1
+2908,prdb-1615,US,Repair and Maintenance service,null,null,Design Software Implementation Email Configuration Phone Website,null,0,null,null,1
+2910,prdb-1617,US,Information Technology,null,null,Design Software Implementation Email Configuration Phone,null,0,null,null,1
+2914,prdb-1621,US,Information Technology,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+2916,prdb-1623,US,Wholesaler,null,null,Design Software Implementation Email Configuration Phone Website,null,0,null,null,1
+2919,prdb-1626,US,Information Technology,null,null,Implementation Email,Physical Theft,0,null,null,1
+2920,prdb-1627,US,Information Technology,null,null,Design Software Configuration Phone,null,0,null,null,1
+2922,prdb-1629,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+2925,prdb-1632,US,Manufacturing,null,null,Implementation Email Configuration Phone Network Website,null,0,null,null,1
+2926,prdb-1633,US,Entertainment,null,null,Configuration Network Website,null,0,null,null,1
+2930,prdb-1637,US,Information Technology,null,null,Design Software,null,1000000,null,null,1
+2931,prdb-1638,US,Support Services,null,null,Design Software Configuration Website,null,0,null,null,1
+2933,prdb-1640,US,Telecommunications,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+2934,prdb-1641,US,Wholesaler,null,null,Configuration Website,null,0,null,null,1
+2937,prdb-1644,US,Entertainment,null,null,Implementation Email Configuration Website,null,0,null,null,1
+2939,prdb-1646,US,Tourism,null,null,Configuration Network,null,0,null,null,1
+2940,prdb-1647,US,Associations,null,null,Configuration Phone,Physical Theft,0,null,null,1
+2941,prdb-1648,US,Information Technology,null,null,Design Software Implementation Email Configuration Phone,null,0,null,null,1
+2942,prdb-1649,US,Retailer,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+2944,prdb-1651,US,Information Technology,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2946,prdb-1653,US,Wholesaler,null,null,Configuration Website,null,0,null,null,1
+2948,prdb-1655,US,Utilities,null,null,Implementation Email,Spoof Scam Phishing,0,null,null,1
+2949,prdb-1656,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+2951,prdb-1658,US,Social Services,null,null,Implementation Email,null,0,null,null,1
+2953,prdb-1660,US,Airport Operations,null,null,Implementation Email,null,0,null,null,1
+2954,prdb-1661,US,Printing Services,null,null,Physical Documents Implementation Email,null,0,null,null,1
+2955,prdb-1662,US,Manufacturing,null,null,Implementation Email Configuration Network,Spoof Phishing,0,null,null,1
+2956,prdb-1663,US,Manufacturing,null,null,Implementation Email Configuration Network,null,0,null,null,1
+2957,prdb-1664,US,Associations,null,null,Configuration Website,null,0,null,null,1
+2958,prdb-1665,US,Wholesaler,null,null,Configuration Phone Website,null,0,null,null,1
+2959,prdb-1666,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+2960,prdb-1667,US,Wholesaler,null,null,Design Software Implementation Email Configuration Website,null,0,null,null,1
+2962,prdb-1669,US,Retailer,null,Information Exchange C2,Configuration Website,null,0,null,null,1
+2963,prdb-1670,US,Manufacturing,null,null,Configuration Phone,null,0,null,null,1
+2964,prdb-1671,US,Tourism,null,null,Implementation Email Configuration Phone Network Website,null,0,null,null,1
+2971,prdb-1678,US,Tourism,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+2973,prdb-1680,US,Information Technology,null,null,Design Software Implementation Email Configuration Phone Website,null,0,null,null,1
+2974,prdb-1681,US,Information Technology,null,null,Design Software Implementation Email Configuration Network,null,0,null,null,1
+2976,prdb-1683,US,Retailer,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+2980,prdb-1687,US,Manufacturing,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+2985,prdb-1692,US,Information Technology,null,null,Implementation Email Configuration Phone Network,null,0,null,null,1
+2987,prdb-1694,US,Information Technology,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+2989,prdb-1696,US,Consulting Services,null,null,Implementation Email,null,0,null,null,1
+2990,prdb-1697,US,Wholesaler,null,null,Configuration Network,null,0,null,null,1
+2991,prdb-1698,US,Transport,null,null,Implementation Email Configuration Phone Network Website,null,0,null,null,1
+2994,prdb-1701,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+2995,prdb-1702,US,Information Technology,null,null,Design Software Implementation Email,null,0,null,null,1
+2996,prdb-1703,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+2997,prdb-1704,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+2998,prdb-1705,US,Food Establishment,null,null,Configuration Network,null,0,null,null,1
+3000,prdb-1707,US,NPO,null,null,Implementation Email Configuration Website,null,0,null,null,1
+3002,prdb-1709,US,Information Technology,null,null,Configuration Phone,null,0,null,null,1
+3003,prdb-1710,US,Wholesaler,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+3004,prdb-1711,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+3006,prdb-1713,US,Information Technology,null,null,Design Software Implementation Email Configuration Phone Website,null,0,null,null,1
+3011,prdb-1718,US,Wholesaler,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3012,prdb-1719,US,Education,null,null,Implementation Email Configuration Network,null,0,null,null,1
+3014,prdb-1721,US,Tourism,null,null,Configuration Network,null,0,null,null,1
+3015,prdb-1722,US,Retailer,null,null,Implementation Email Configuration Website,null,0,null,null,1
+3017,prdb-1724,US,Manufacturing,null,null,Configuration Website,null,0,null,null,1
+3018,prdb-1725,US,Technical Services,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3020,prdb-1727,US,Sport,null,null,Implementation Email,null,0,null,null,1
+3021,prdb-1728,US,Food Establishment,null,null,Configuration Network,null,0,null,null,1
+3022,prdb-1729,US,Information Technology,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+3024,prdb-1731,US,Information Technology,null,null,Design Software Configuration Network,null,0,null,null,1
+3030,prdb-1737,US,Information Technology,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+3031,prdb-1738,US,Consulting Services,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+3034,prdb-1741,US,Retailer,null,null,Design Software,null,0,null,null,1
+3035,prdb-1742,US,Employment Services,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3036,prdb-1743,US,Information Technology,null,Information Exchange Spam,Physical Documents Implementation Email,Spoof Phishing,0,null,null,1
+3037,prdb-1744,US,Consulting Services,null,null,Configuration Website,null,0,null,null,1
+3038,prdb-1745,US,Information Technology,null,null,Design Software,null,0,null,null,1
+3039,prdb-1746,US,Information Technology,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+3040,prdb-1747,US,Information Technology,null,null,Implementation Email Configuration Network,null,0,null,null,1
+3045,prdb-1752,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3046,prdb-1753,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3047,prdb-1754,US,Information Technology,null,null,Design Software,null,0,null,null,1
+3048,prdb-1755,US,Real Estate,null,null,Design Software,null,0,null,null,1
+3049,prdb-1756,US,Information Technology,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+3051,prdb-1758,US,Real Estate,null,null,Configuration Network,null,0,null,null,1
+3052,prdb-1759,US,Information Technology,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3053,prdb-1760,US,Social Services,null,null,Configuration Network,null,0,null,null,1
+3054,prdb-1761,US,Information Technology,null,null,Configuration Phone Network,null,0,null,null,1
+3055,prdb-1762,US,Airport Operations,null,null,Configuration Network,null,0,null,null,1
+3056,prdb-1763,US,Manufacturing,null,null,Implementation Email,null,0,null,null,1
+3057,prdb-1764,US,Manufacturing,null,null,Implementation Email Configuration Website,Physical Theft,0,null,null,1
+3058,prdb-1765,US,Entertainment,null,null,Implementation Email,null,0,null,null,1
+3059,prdb-1766,IE,Transport,null,null,Design Software Implementation Email Configuration Phone,null,0,null,null,1
+3060,prdb-1767,US,Information Technology,null,null,Implementation Email Social media,null,0,null,null,1
+3061,prdb-1768,CA,Retailer,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+3062,prdb-1769,US,Research,null,null,Implementation Email Configuration Network,null,0,null,null,1
+3063,prdb-1770,US,Information Technology,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3066,prdb-1773,US,Technical Services,null,null,Implementation Email,Physical Loss Spoof Phishing,0,null,null,1
+3068,prdb-1775,US,Information Technology,null,null,Physical Documents Implementation Social media Configuration Website,null,0,null,null,1
+3076,prdb-1783,US,Entertainment,null,null,Configuration Network,null,0,null,null,1
+3077,prdb-1784,US,Manufacturing,null,null,Configuration Website,null,0,null,null,1
+3080,prdb-1787,US,Retailer,null,null,Configuration Network,null,0,null,null,1
+3082,prdb-1789,US,Sport,null,null,Design Web application Configuration Network,null,0,null,null,1
+3083,prdb-1790,US,Technical Services,null,null,Design Software Implementation Email,Spoof Phishing,0,null,null,1
+3084,prdb-1791,US,Wholesaler,null,null,Configuration Network,null,0,null,null,1
+3085,prdb-1792,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+3086,prdb-1793,US,Food Establishment,null,null,Implementation Email Configuration Phone,Physical Theft,0,null,null,1
+3088,prdb-1795,US,Sport,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+3092,prdb-1799,US,Information Technology,null,null,Implementation Email,null,0,null,null,1
+3094,prdb-1801,US,Wholesaler,null,null,Design Software Implementation Email,null,0,null,null,1
+3098,prdb-1805,US,Telecommunications,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+3114,prdb-1821,US,Advertising,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+3139,prdb-1846,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3140,prdb-1847,US,Retailer,null,null,Configuration Phone Website,null,0,null,null,1
+3141,prdb-1848,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3143,prdb-1850,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3145,prdb-1852,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3148,prdb-1855,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3149,prdb-1856,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3196,prdb-1903,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3206,prdb-1913,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3209,prdb-1916,US,Retailer,null,null,Implementation Email,null,111,null,null,1
+3213,prdb-1920,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3214,prdb-1921,US,Retailer,null,null,Physical Documents,null,0,null,null,1
+3216,prdb-1923,US,Retailer,null,null,Configuration Phone Website,null,0,null,null,1
+3218,prdb-1925,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3222,prdb-1929,US,Retailer,null,null,Implementation Email Configuration Network,Spoof Phishing,0,null,null,1
+3223,prdb-1930,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3225,prdb-1932,US,Retailer,null,null,Implementation Email,null,1092,null,null,1
+3229,prdb-1936,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3232,prdb-1939,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3255,prdb-1962,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3265,prdb-1972,US,Retailer,null,null,Physical Documents,null,0,null,null,1
+3275,prdb-1982,US,Retailer,null,null,Physical Documents,null,0,null,null,1
+3277,prdb-1984,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3282,prdb-1989,US,Retailer,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+3284,prdb-1991,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3289,prdb-1996,US,Retailer,null,null,Physical Documents,null,0,null,null,1
+3291,prdb-1998,US,Retailer,null,null,Physical Documents,null,0,null,null,1
+3293,prdb-2000,US,Retailer,null,null,Design Software,null,0,null,null,1
+3301,prdb-2008,US,Retailer,null,null,Configuration Network,null,0,null,null,1
+3303,prdb-2010,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3315,prdb-2022,US,Retailer,null,null,Design Software,null,0,null,null,1
+3317,prdb-2024,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3321,prdb-2028,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3325,prdb-2032,US,Retailer,null,null,Configuration Network,null,0,null,null,1
+3326,prdb-2033,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3328,prdb-2035,US,Retailer,null,null,Design Software,null,100,null,null,1
+3334,prdb-2041,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3340,prdb-2047,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3341,prdb-2048,US,Retailer,null,null,Design Software Configuration Website,null,0,null,null,1
+3342,prdb-2049,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3343,prdb-2050,US,Retailer,null,null,Implementation Email,Spoof Scam Phishing,0,null,null,1
+3358,prdb-2065,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3359,prdb-2066,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3373,prdb-2080,US,Retailer,null,null,Design Software Configuration Network,null,0,null,null,1
+3377,prdb-2084,US,Retailer,null,Physical Attack Surveillance,Physical Documents,null,0,null,null,1
+3379,prdb-2086,US,Retailer,null,null,Implementation Email Configuration Phone Network,Physical Theft,101600000,null,null,1
+3381,prdb-2088,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3388,prdb-2095,US,Retailer,null,null,Implementation Email Configuration Website,null,0,null,null,1
+3393,prdb-2100,US,Retailer,null,null,Implementation Email Configuration Website,null,0,null,null,1
+3396,prdb-2103,US,Retailer,null,null,Configuration Phone Website,null,0,null,null,1
+3399,prdb-2106,US,Retailer,null,null,Design Software Configuration Website,null,0,null,null,1
+3406,prdb-2113,US,Retailer,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+3408,prdb-2115,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3412,prdb-2119,US,Retailer,null,null,Design Software,null,0,null,null,1
+3416,prdb-2123,US,Retailer,null,null,Configuration Phone Network,null,0,null,null,1
+3419,prdb-2126,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3422,prdb-2129,US,Retailer,null,null,Physical Documents,null,0,null,null,1
+3437,prdb-2144,US,Retailer,null,null,Implementation Email Configuration Website,null,0,null,null,1
+3444,prdb-2151,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3445,prdb-2152,US,Retailer,null,null,Physical Documents,Physical Theft,0,null,null,1
+3449,prdb-2156,US,Retailer,null,null,Physical Documents Implementation Email Social media,null,100,null,null,1
+3450,prdb-2157,US,Retailer,null,null,Physical Documents,null,0,null,null,1
+3453,prdb-2160,US,Retailer,null,null,Design Software Configuration Network VPN,null,0,null,null,1
+3456,prdb-2163,US,Retailer,null,null,Implementation Email Configuration Website,null,0,null,null,1
+3467,prdb-2174,US,Retailer,null,null,Implementation Email Configuration Phone,null,111,null,null,1
+3472,prdb-2179,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3476,prdb-2183,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3478,prdb-2185,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3479,prdb-2186,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3482,prdb-2189,US,Retailer,null,null,Configuration Website,null,1000,null,null,1
+3483,prdb-2190,US,Retailer,null,null,Physical Documents,Physical Theft,0,null,null,1
+3484,prdb-2191,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3495,prdb-2202,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3496,prdb-2203,US,Retailer,null,null,Physical Documents,null,0,null,null,1
+3499,prdb-2206,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3507,prdb-2214,US,Retailer,null,null,Physical Documents,null,0,null,null,1
+3508,prdb-2215,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3509,prdb-2216,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3514,prdb-2221,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3526,prdb-2233,US,Retailer,null,null,Configuration Phone Website,null,0,null,null,1
+3531,prdb-2238,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3532,prdb-2239,US,Retailer,null,null,Implementation Email,null,100000,null,null,1
+3536,prdb-2243,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3539,prdb-2246,US,Retailer,null,null,Physical Documents,null,0,null,null,1
+3540,prdb-2247,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3542,prdb-2249,US,Retailer,null,null,Implementation Email Configuration Phone,Spoof Phishing,0,null,null,1
+3544,prdb-2251,US,Retailer,null,null,Configuration Phone,Physical Theft,0,null,null,1
+3545,prdb-2252,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3550,prdb-2257,US,Retailer,null,null,Physical Documents Implementation Email,Physical Theft,0,null,null,1
+3551,prdb-2258,US,Retailer,null,null,Configuration Phone Website,null,0,null,null,1
+3552,prdb-2259,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3557,prdb-2264,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3558,prdb-2265,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3559,prdb-2266,US,Retailer,null,null,Design Software,Physical Theft,0,null,null,1
+3563,prdb-2270,US,Retailer,null,null,Design Software Configuration Website,null,0,null,null,1
+3564,prdb-2271,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3565,prdb-2272,US,Retailer,null,null,Configuration Network Website,null,0,null,null,1
+3571,prdb-2278,US,Retailer,null,null,Design Software,null,0,null,null,1
+3573,prdb-2280,US,Retailer,null,null,Configuration Network,null,0,null,null,1
+3576,prdb-2283,US,Retailer,null,null,Configuration Network,null,0,null,null,1
+3583,prdb-2290,US,Retailer,null,null,Implementation Email Configuration Phone Website,Spoof Phishing,0,null,null,1
+3584,prdb-2291,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3585,prdb-2292,US,Retailer,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+3588,prdb-2295,US,Retailer,null,null,Design Software,null,0,null,null,1
+3589,prdb-2296,US,Retailer,null,null,Design Software,null,0,null,null,1
+3591,prdb-2298,US,Retailer,null,null,Design Software,null,0,null,null,1
+3594,prdb-2301,US,Retailer,null,null,Implementation Email Configuration Website,null,0,null,null,1
+3597,prdb-2304,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3599,prdb-2306,US,Retailer,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+3601,prdb-2308,US,Retailer,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+3603,prdb-2310,US,Retailer,null,null,Configuration Network Website,null,0,null,null,1
+3605,prdb-2312,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3607,prdb-2314,US,Retailer,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+3610,prdb-2317,US,Retailer,null,null,Configuration Phone,Physical Theft,0,null,null,1
+3612,prdb-2319,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3614,prdb-2321,US,Retailer,null,null,Design Software,Physical Theft,0,null,null,1
+3615,prdb-2322,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3618,prdb-2325,US,Retailer,null,null,Configuration Phone Website,null,0,null,null,1
+3623,prdb-2330,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3625,prdb-2332,US,Retailer,null,null,Design Software,null,0,null,null,1
+3628,prdb-2335,US,Retailer,null,null,Configuration Network Website,null,0,null,null,1
+3630,prdb-2337,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3631,prdb-2338,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3635,prdb-2342,US,Retailer,null,null,Design Software Configuration Software update,null,0,null,null,1
+3637,prdb-2344,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3639,prdb-2346,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3641,prdb-2348,US,Retailer,null,null,Implementation Email Configuration Website,null,0,null,null,1
+3642,prdb-2349,US,Retailer,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+3647,prdb-2354,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3650,prdb-2357,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3651,prdb-2358,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3653,prdb-2360,US,Retailer,null,null,Implementation Email Configuration Phone Network,Spoof Phishing,0,null,null,1
+3655,prdb-2362,US,Retailer,null,null,Implementation Email SMS,null,0,null,null,1
+3657,prdb-2364,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3658,prdb-2365,US,Retailer,null,null,Implementation SMS,null,0,null,null,1
+3661,prdb-2368,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3663,prdb-2370,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3665,prdb-2372,US,Retailer,null,null,Implementation Email SMS Configuration Phone,null,0,null,null,1
+3666,prdb-2373,US,Retailer,null,null,Design Software Implementation SMS,null,0,null,null,1
+3667,prdb-2374,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3668,prdb-2375,US,Retailer,null,null,Design Software Implementation Email Configuration Phone Website,null,0,null,null,1
+3670,prdb-2377,US,Retailer,null,null,Implementation SMS Configuration Website,null,0,null,null,1
+3671,prdb-2378,US,Retailer,null,null,Implementation SMS Configuration Website,null,0,null,null,1
+3674,prdb-2381,US,Retailer,null,null,Configuration Phone Website,null,0,null,null,1
+3675,prdb-2382,US,Retailer,null,null,Configuration Website,Physical Theft,0,null,null,1
+3677,prdb-2384,US,Retailer,null,null,Configuration Network,null,0,null,null,1
+3680,prdb-2387,US,Retailer,null,null,Configuration Phone,null,0,null,null,1
+3682,prdb-2389,US,Retailer,null,null,Implementation Email Configuration Website,Physical Theft,0,null,null,1
+3685,prdb-2392,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3686,prdb-2393,US,Retailer,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+3688,prdb-2395,US,Retailer,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+3690,prdb-2397,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3691,prdb-2398,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3693,prdb-2400,US,Retailer,null,null,Design Software,null,0,null,null,1
+3695,prdb-2402,US,Retailer,null,null,Configuration Website,null,0,null,null,1
+3697,prdb-2404,US,Retailer,null,null,Configuration Network,null,0,null,null,1
+3707,prdb-2414,US,Retailer,null,null,Implementation Email,Spoof Phishing,112,null,null,1
+3746,prdb-2453,US,Retailer,null,null,Implementation Email,null,0,null,null,1
+3747,prdb-2454,US,Retailer,null,null,Implementation Email Configuration Phone,null,10200,null,null,1
+3756,prdb-2463,US,Retailer,null,null,Implementation Email Configuration Website,null,11000000,null,null,1
+3758,prdb-2465,US,Retailer,null,null,Implementation Email Configuration Phone,null,113500000,null,null,1
+3771,prdb-2478,US,Education,null,null,Design Software,null,106000,null,null,1
+3796,prdb-2503,US,Education,null,null,Physical Documents,null,100,null,null,1
+3838,prdb-2545,US,Education,null,null,Configuration Network,Physical Theft,0,null,null,1
+3888,prdb-2595,US,Education,null,null,Configuration Phone,null,1132,null,null,1
+3934,prdb-2641,US,Education,null,null,Configuration Phone,null,0,null,null,1
+4008,prdb-2715,US,Education,null,null,Physical Documents,null,0,null,null,1
+4025,prdb-2732,US,Education,null,null,Configuration Website,null,0,null,null,1
+4031,prdb-2738,US,Education,null,null,Configuration Phone,null,0,null,null,1
+4045,prdb-2752,US,Education,null,null,Configuration Network,null,0,null,null,1
+4066,prdb-2773,US,Education,null,null,Physical Documents,null,0,null,null,1
+4068,prdb-2775,US,Education,null,null,Configuration Website,Physical Theft,11000,null,null,1
+4073,prdb-2780,US,Education,null,null,Implementation Email,null,103,null,null,1
+4081,prdb-2788,US,Education,null,null,Configuration Phone,null,11000,null,null,1
+4160,prdb-2867,US,Education,null,null,Design Software Configuration Network,null,10868,null,null,1
+4162,prdb-2869,US,Education,null,null,Physical Documents,null,0,null,null,1
+4193,prdb-2900,US,Education,null,null,Configuration Website,null,0,null,null,1
+4201,prdb-2908,US,Education,null,null,Physical Documents Configuration Phone,null,100,null,null,1
+4223,prdb-2930,US,Education,null,null,Configuration Network,null,0,null,null,1
+4233,prdb-2940,US,Education,null,null,Configuration Phone,null,11388,null,null,1
+4236,prdb-2943,US,Education,null,null,Configuration Network,null,0,null,null,1
+4241,prdb-2948,US,Education,null,null,Configuration Network,null,0,null,null,1
+4255,prdb-2962,US,Education,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+4271,prdb-2978,US,Education,null,null,Implementation Email,null,110,null,null,1
+4277,prdb-2984,US,Education,null,null,Implementation Email,Physical Theft,0,null,null,1
+4280,prdb-2987,US,Education,null,null,Configuration Network,null,0,null,null,1
+4306,prdb-3013,US,Education,null,null,Implementation Email Configuration Website,null,0,null,null,1
+4307,prdb-3014,US,Education,null,null,Physical Documents,null,0,null,null,1
+4313,prdb-3020,US,Education,null,null,Physical Documents,null,0,null,null,1
+4314,prdb-3021,US,Education,null,null,Configuration Network,null,0,null,null,1
+4326,prdb-3033,US,Education,null,null,Implementation Email,null,0,null,null,1
+4330,prdb-3037,US,Education,null,Script or Program Extortion,Physical Documents,null,0,null,null,1
+4334,prdb-3041,US,Education,null,null,Implementation Email,null,0,null,null,1
+4338,prdb-3045,US,Education,null,null,Configuration Website,null,0,null,null,1
+4344,prdb-3051,US,Education,null,null,Physical Documents Implementation Email,Physical Theft,0,null,null,1
+4347,prdb-3054,US,Education,null,null,Physical Documents,null,0,null,null,1
+4348,prdb-3055,US,Education,null,null,Configuration Network,null,0,null,null,1
+4351,prdb-3058,US,Education,null,null,Configuration Network,null,0,null,null,1
+4371,prdb-3078,US,Education,null,null,Implementation Email,null,0,null,null,1
+4397,prdb-3104,US,Education,null,null,Design Software,null,0,null,null,1
+4399,prdb-3106,US,Education,null,null,Implementation Email,null,0,null,null,1
+4407,prdb-3114,US,Education,null,null,Physical Documents,null,0,null,null,1
+4435,prdb-3142,US,Education,null,null,Implementation Email,null,0,null,null,1
+4438,prdb-3145,US,Education,null,null,Implementation Email,null,0,null,null,1
+4443,prdb-3150,US,Education,null,null,Physical Documents Configuration Network,null,0,null,null,1
+4444,prdb-3151,US,Education,null,null,Physical Documents Configuration Network,null,0,null,null,1
+4445,prdb-3152,US,Education,null,null,Design Software Configuration Software update,Spoof Phishing,0,null,null,1
+4452,prdb-3159,US,Education,null,null,Configuration Network,null,0,null,null,1
+4454,prdb-3161,US,Education,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+4462,prdb-3169,US,Education,null,null,Design Software,null,0,null,null,1
+4466,prdb-3173,US,Education,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+4469,prdb-3176,US,Education,null,null,Configuration Network,null,0,null,null,1
+4473,prdb-3180,US,Education,null,null,Implementation Email,Spoof Scam Phishing,0,null,null,1
+4476,prdb-3183,US,Education,null,null,Physical Documents Configuration Phone Website,null,0,null,null,1
+4477,prdb-3184,US,Education,null,null,Configuration Phone,null,0,null,null,1
+4483,prdb-3190,US,Education,null,null,Configuration Network,null,0,null,null,1
+4486,prdb-3193,US,Education,null,null,Configuration Phone,null,0,null,null,1
+4487,prdb-3194,US,Education,null,null,Configuration Phone Network,null,0,null,null,1
+4491,prdb-3198,US,Education,null,null,Implementation Email,null,0,null,null,1
+4495,prdb-3202,US,Education,null,null,Implementation Email SMS,Physical Theft,0,null,null,1
+4496,prdb-3203,US,Education,null,null,Configuration Network,null,0,null,null,1
+4498,prdb-3205,US,Education,null,null,Physical Documents Configuration Website,null,0,null,null,1
+4502,prdb-3209,US,Education,null,null,Design Software,null,0,null,null,1
+4506,prdb-3213,US,Education,null,null,Implementation SMS,Physical Theft,0,null,null,1
+4513,prdb-3220,US,Education,null,null,Configuration Network,null,0,null,null,1
+4514,prdb-3221,US,Education,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+4516,prdb-3223,US,Education,null,null,Implementation Email,null,0,null,null,1
+4518,prdb-3225,US,Education,null,null,Design Software Implementation Email,null,0,null,null,1
+4519,prdb-3226,US,Education,null,null,Implementation Email Configuration Website,null,0,null,null,1
+4520,prdb-3227,US,Education,null,null,Implementation Email,null,0,null,null,1
+4523,prdb-3230,US,Education,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+4524,prdb-3231,US,Education,null,null,Configuration Website,null,0,null,null,1
+4534,prdb-3241,US,Education,null,null,Configuration Phone,null,0,null,null,1
+4536,prdb-3243,US,Education,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+4538,prdb-3245,US,Education,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+4540,prdb-3247,US,Education,null,null,Design Software,null,0,null,null,1
+4541,prdb-3248,US,Education,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+4542,prdb-3249,US,Education,null,null,Implementation Email Social media,null,1000,null,null,1
+4544,prdb-3251,US,Education,null,null,Configuration Website,null,0,null,null,1
+4546,prdb-3253,US,Education,null,null,Configuration Network,null,0,null,null,1
+4549,prdb-3256,US,Education,null,null,Implementation Email,Physical Theft,0,null,null,1
+4552,prdb-3259,US,Education,null,null,Physical Documents,null,0,null,null,1
+4561,prdb-3268,US,Education,null,null,Configuration Network,null,0,null,null,1
+4562,prdb-3269,US,Education,null,null,Configuration Website,null,0,null,null,1
+4563,prdb-3270,US,Education,null,null,Implementation Email,null,0,null,null,1
+4651,prdb-3358,US,Government,null,null,Physical Documents,null,0,null,null,1
+4682,prdb-3389,US,Government,null,null,Configuration Website,null,100000,null,null,1
+4685,prdb-3392,US,Government,null,null,Design Software,null,100000,null,null,1
+4690,prdb-3397,US,Government,null,null,Configuration Phone,null,0,null,null,1
+4696,prdb-3403,US,Government,null,null,Design Programming error,null,0,null,null,1
+4729,prdb-3436,US,Government,null,null,Physical Documents,null,0,null,null,1
+4762,prdb-3469,US,Government,null,null,Physical Documents,null,0,null,null,1
+4765,prdb-3472,US,Government,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+4789,prdb-3496,US,Government,null,null,Physical Documents,null,0,null,null,1
+4798,prdb-3505,US,Government,null,null,Design Software,null,10000,null,null,1
+4802,prdb-3509,US,Government,null,null,Design Software,null,10000,null,null,1
+4815,prdb-3522,US,Government,null,null,Physical Documents,null,0,null,null,1
+4838,prdb-3545,US,Government,null,null,Configuration Phone,null,10501,null,null,1
+4863,prdb-3570,US,Government,null,null,Configuration Website,null,10597,null,null,1
+4887,prdb-3594,US,Government,null,null,Physical Documents,Physical Theft,0,null,null,1
+4901,prdb-3608,US,Government,null,null,Physical Documents,null,0,null,null,1
+4921,prdb-3628,US,Government,null,null,Physical Documents,null,0,null,null,1
+4945,prdb-3652,US,Government,null,null,Physical Documents,null,0,null,null,1
+4953,prdb-3660,US,Government,null,null,Physical Documents,null,1000,null,null,1
+4966,prdb-3673,US,Government,null,null,Physical Documents,null,0,null,null,1
+4979,prdb-3686,US,Government,null,null,Configuration Network,Physical Theft,0,null,null,1
+4985,prdb-3692,US,Government,null,null,Physical Documents,null,0,null,null,1
+4990,prdb-3697,US,Government,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+4992,prdb-3699,US,Government,null,null,Configuration Website,null,1000,null,null,1
+5005,prdb-3712,US,Government,null,null,Physical Documents Configuration Phone Website,null,0,null,null,1
+5007,prdb-3714,US,Government,null,null,Configuration Phone,null,0,null,null,1
+5008,prdb-3715,US,Government,null,null,Physical Documents Configuration Phone,null,10600,null,null,1
+5009,prdb-3716,US,Government,null,null,Configuration Website,null,0,null,null,1
+5011,prdb-3718,US,Government,null,null,Configuration Phone,null,100,null,null,1
+5039,prdb-3746,US,Government,null,null,Physical Documents,null,0,null,null,1
+5043,prdb-3750,US,Government,null,null,Configuration Website,null,0,null,null,1
+5054,prdb-3761,US,Government,null,null,Configuration Website,null,0,null,null,1
+5058,prdb-3765,US,Government,null,null,Physical Documents,null,0,null,null,1
+5066,prdb-3773,US,Government,null,null,Configuration Network,null,0,null,null,1
+5067,prdb-3774,US,Government,null,null,Configuration Website,null,0,null,null,1
+5073,prdb-3780,US,Government,null,null,Configuration Network,null,114,null,null,1
+5102,prdb-3809,US,Government,null,null,Physical Documents,null,0,null,null,1
+5105,prdb-3812,US,Government,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+5109,prdb-3816,US,Government,null,null,Configuration Network,null,0,null,null,1
+5110,prdb-3817,US,Government,null,null,Physical Documents,null,0,null,null,1
+5115,prdb-3822,US,Government,null,null,Implementation Email,null,100,null,null,1
+5118,prdb-3825,US,Government,null,null,Implementation Email Configuration Website,null,0,null,null,1
+5129,prdb-3836,US,Government,null,null,Configuration Phone,null,0,null,null,1
+5132,prdb-3839,US,Government,null,null,Implementation Email,null,0,null,null,1
+5136,prdb-3843,US,Government,null,null,Physical Documents,null,0,null,null,1
+5142,prdb-3849,US,Government,null,null,Configuration Network,null,0,null,null,1
+5148,prdb-3855,US,Government,null,null,Implementation Email Configuration Website,null,0,null,null,1
+5149,prdb-3856,US,Government,null,null,Implementation Email Configuration Website,null,0,null,null,1
+5151,prdb-3858,US,Government,null,null,Physical Documents,null,0,null,null,1
+5160,prdb-3867,US,Government,null,null,Implementation Email Configuration Phone Website,null,1073,null,null,1
+5164,prdb-3871,US,Government,null,null,Implementation Email Configuration Phone,null,100,null,null,1
+5166,prdb-3873,US,Government,null,null,Physical Documents,null,1000,null,null,1
+5170,prdb-3877,US,Government,null,null,Implementation Email,null,1000,null,null,1
+5171,prdb-3878,US,Government,null,null,Physical Documents,Physical Theft,0,null,null,1
+5177,prdb-3884,US,Government,null,null,Physical Documents,null,0,null,null,1
+5182,prdb-3889,US,Government,null,null,Configuration Website,null,100000,null,null,1
+5185,prdb-3892,US,Government,null,null,Configuration Phone,null,0,null,null,1
+5186,prdb-3893,US,Government,null,null,Implementation Email,null,0,null,null,1
+5191,prdb-3898,US,Government,null,null,Implementation Email Configuration Website,null,11,null,null,1
+5193,prdb-3900,US,Government,null,null,Implementation Email Configuration Website,null,0,null,null,1
+5207,prdb-3914,US,Government,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+5211,prdb-3918,US,Government,null,null,Physical Documents,Physical Theft,0,null,null,1
+5212,prdb-3919,US,Government,null,null,Configuration Network,null,0,null,null,1
+5213,prdb-3920,US,Government,null,null,Configuration Phone,null,0,null,null,1
+5218,prdb-3925,US,Government,null,null,Configuration Website,null,0,null,null,1
+5222,prdb-3929,US,Government,null,null,Configuration Website,null,0,null,null,1
+5226,prdb-3933,US,Government,null,null,Implementation Configuration Network Website,null,0,null,null,1
+5230,prdb-3937,US,Government,null,null,Configuration Phone,null,0,null,null,1
+5232,prdb-3939,US,Government,null,null,Physical Documents,Physical Theft,10000,null,null,1
+5234,prdb-3941,US,Government,null,null,Implementation Email,null,0,null,null,1
+5239,prdb-3946,US,Government,null,null,Configuration Website,null,100,null,null,1
+5240,prdb-3947,US,Government,null,null,Configuration Network,null,0,null,null,1
+5241,prdb-3948,US,Government,null,null,Physical Documents Implementation Email Configuration Phone Website,null,0,null,null,1
+5249,prdb-3956,US,Government,null,null,Implementation Email,null,0,null,null,1
+5251,prdb-3958,US,Government,null,null,Configuration Website,null,0,null,null,1
+5264,prdb-3971,US,Government,null,null,Configuration Network,null,0,null,null,1
+5265,prdb-3972,US,Government,null,null,Configuration Website,null,10000,null,null,1
+5276,prdb-3983,US,Government,null,null,Configuration Phone Network,null,0,null,null,1
+5284,prdb-3991,US,Government,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+5289,prdb-3996,US,Government,null,null,Implementation Email,null,0,null,null,1
+5292,prdb-3999,US,Government,null,null,Configuration Website,null,0,null,null,1
+5294,prdb-4001,US,Government,null,null,Design Software Configuration Website,null,0,null,null,1
+5295,prdb-4002,US,Government,null,null,Implementation Email,null,0,null,null,1
+5300,prdb-4007,US,Government,null,null,Implementation Email,null,0,null,null,1
+5305,prdb-4012,US,Government,null,null,Implementation SMS,Physical Theft,0,null,null,1
+5306,prdb-4013,US,Government,null,null,Configuration Network,null,0,null,null,1
+5307,prdb-4014,US,Government,null,null,Configuration Website,null,0,null,null,1
+5309,prdb-4016,US,Government,null,null,Configuration Website,null,0,null,null,1
+5310,prdb-4017,US,Government,null,null,Configuration Phone,null,0,null,null,1
+5315,prdb-4022,US,Government,null,null,Configuration Network,null,0,null,null,1
+5316,prdb-4023,US,Government,null,null,Implementation Email Configuration Network,null,0,null,null,1
+5318,prdb-4025,US,Government,null,null,Implementation Email Configuration Phone,Physical Theft,0,null,null,1
+5325,prdb-4032,US,Government,null,null,Configuration Website,null,0,null,null,1
+5327,prdb-4034,US,Government,null,null,Physical Documents,null,0,null,null,1
+5330,prdb-4037,US,Government,null,null,Implementation Email,null,0,null,null,1
+5331,prdb-4038,US,Government,null,null,Configuration Website,null,0,null,null,1
+5332,prdb-4039,US,Government,null,null,Configuration Website,null,0,null,null,1
+5337,prdb-4044,US,Government,null,null,Implementation Email Configuration Phone,Physical Theft,0,null,null,1
+5340,prdb-4047,US,Government,null,null,Physical Documents Configuration Website,null,0,null,null,1
+5341,prdb-4048,US,Government,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+5350,prdb-4057,US,Government,null,null,Configuration Website,Delete Destruction,0,null,null,1
+5352,prdb-4059,US,Government,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+5353,prdb-4060,US,Government,null,null,Design Software Configuration Phone,null,0,null,null,1
+5354,prdb-4061,US,Government,null,null,Configuration Network,null,0,null,null,1
+5360,prdb-4067,US,Government,null,null,Configuration Network,null,0,null,null,1
+5366,prdb-4073,US,Government,null,null,Implementation Email Configuration Phone,Spoof Phishing,108,null,null,1
+5367,prdb-4074,US,Government,null,null,Implementation Email Configuration Network,null,0,null,null,1
+5369,prdb-4076,US,Government,null,null,Implementation Email,null,0,null,null,1
+5370,prdb-4077,US,Government,null,null,Physical Documents,Physical Theft,100000,null,null,1
+5371,prdb-4078,US,Government,null,null,Implementation Email,null,0,null,null,1
+5378,prdb-4085,US,Government,null,null,Implementation Email,null,0,null,null,1
+5381,prdb-4088,US,Government,null,null,Design Software Configuration Network,null,0,null,null,1
+5383,prdb-4090,US,Government,null,null,Design Software,null,0,null,null,1
+5385,prdb-4092,US,Government,null,null,Implementation Email,null,0,null,null,1
+5398,prdb-4105,US,Government,null,null,Implementation Email Configuration Phone Website,null,11000,null,null,1
+5424,prdb-4131,US,Medical,null,null,Configuration Phone Website,null,0,null,null,1
+5439,prdb-4146,US,Medical,null,null,Configuration Phone,null,106,null,null,1
+5442,prdb-4149,US,Medical,null,null,Design Programming error,null,0,null,null,1
+5472,prdb-4179,US,Medical,null,null,Configuration Phone,null,10600,null,null,1
+5483,prdb-4190,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+5500,prdb-4207,US,Medical,null,null,Physical Documents,null,0,null,null,1
+5504,prdb-4211,US,Medical,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+5509,prdb-4216,US,Medical,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+5525,prdb-4232,US,Medical,null,null,Configuration Network,null,0,null,null,1
+5528,prdb-4235,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+5534,prdb-4241,US,Medical,null,null,Physical Documents,null,0,null,null,1
+5545,prdb-4252,US,Medical,null,null,Configuration Website,null,103000,null,null,1
+5567,prdb-4274,US,Medical,null,null,Configuration Network,null,1000,null,null,1
+5593,prdb-4300,US,Medical,null,null,Physical Documents,null,0,null,null,1
+5605,prdb-4312,US,Medical,null,null,Configuration Phone,Physical Theft,10200,null,null,1
+5610,prdb-4317,US,Medical,null,null,Physical Documents,null,0,null,null,1
+5622,prdb-4329,US,Medical,null,null,Configuration Phone,null,1000,null,null,1
+5625,prdb-4332,US,Medical,null,null,Design Software Configuration Network,null,1000,null,null,1
+5631,prdb-4338,US,Medical,null,null,Physical Documents,null,100,null,null,1
+5643,prdb-4350,US,Medical,null,null,Implementation Email Configuration Website,null,0,null,null,1
+5652,prdb-4359,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+5660,prdb-4367,US,Medical,null,null,Configuration Network,Physical Theft,1023210,null,null,1
+5672,prdb-4379,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+5707,prdb-4414,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+5708,prdb-4415,US,Medical,null,null,Physical Documents,null,0,null,null,1
+5711,prdb-4418,US,Medical,null,null,Configuration Network,null,0,null,null,1
+5713,prdb-4420,US,Medical,null,null,Physical Documents,null,0,null,null,1
+5721,prdb-4428,US,Medical,null,null,Physical Documents,null,0,null,null,1
+5734,prdb-4441,US,Medical,null,null,Physical Documents,null,0,null,null,1
+5780,prdb-4487,US,Medical,null,null,Physical Documents Design Programming error Configuration Website,null,1000,null,null,1
+5781,prdb-4488,US,Medical,null,null,Configuration Phone Website,null,1000,null,null,1
+5787,prdb-4494,US,Medical,null,null,Configuration Website,null,0,null,null,1
+5800,prdb-4507,US,Medical,null,null,Design Software Implementation Email Configuration Network Website,null,1020,null,null,1
+5801,prdb-4508,US,Medical,null,null,Implementation Email,null,1001,null,null,1
+5805,prdb-4512,US,Medical,null,null,Physical Documents,null,0,null,null,1
+5845,prdb-4552,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+5853,prdb-4560,US,Medical,null,null,Physical Documents,null,0,null,null,1
+5874,prdb-4581,US,Medical,null,null,Configuration Network,null,10100,null,null,1
+5880,prdb-4587,US,Medical,null,null,Configuration Phone,Physical Loss,0,null,null,1
+5928,prdb-4635,US,Medical,null,null,Implementation Email Configuration Network,null,0,null,null,1
+5931,prdb-4638,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+5935,prdb-4642,US,Medical,null,null,Physical Documents,null,0,null,null,1
+5967,prdb-4674,US,Medical,null,null,Physical Documents,null,0,null,null,1
+6005,prdb-4712,US,Medical,null,null,Configuration Network,null,1000,null,null,1
+6008,prdb-4715,US,Medical,null,null,Configuration Network,null,1085,null,null,1
+6028,prdb-4735,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+6038,prdb-4745,US,Medical,null,null,Physical Documents,null,0,null,null,1
+6043,prdb-4750,US,Medical,null,null,Configuration Network,null,0,null,null,1
+6063,prdb-4770,US,Medical,null,null,Physical Documents,null,0,null,null,1
+6091,prdb-4798,US,Medical,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+6098,prdb-4805,US,Medical,null,null,Physical Documents,null,113,null,null,1
+6128,prdb-4835,US,Medical,null,null,Physical Documents,null,0,null,null,1
+6144,prdb-4851,US,Medical,null,null,Implementation Email Configuration Network,null,1070,null,null,1
+6184,prdb-4891,US,Medical,null,null,Configuration Network,null,11387,null,null,1
+6188,prdb-4895,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+6211,prdb-4918,US,Medical,null,null,Configuration Phone,null,1105,null,null,1
+6227,prdb-4934,US,Medical,null,null,Implementation Email Configuration Phone,Physical Theft,0,null,null,1
+6228,prdb-4935,US,Medical,null,null,Configuration Network,null,10190,null,null,1
+6276,prdb-4983,US,Medical,null,null,Configuration Phone,Physical Theft,10345,null,null,1
+6303,prdb-5010,US,Medical,null,null,Configuration Phone Website,Physical Loss,10190,null,null,1
+6317,prdb-5024,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+6347,prdb-5054,US,Medical,null,null,Configuration Phone,Physical Theft,0,null,null,1
+6352,prdb-5059,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+6369,prdb-5076,US,Medical,null,null,Implementation Email Configuration Phone Website,null,10000,null,null,1
+6415,prdb-5122,US,Medical,null,null,Configuration Phone,null,1105,null,null,1
+6463,prdb-5170,US,Medical,null,null,Physical Documents,null,11081,null,null,1
+6479,prdb-5186,US,Medical,null,null,Configuration Network Website,null,0,null,null,1
+6481,prdb-5188,US,Medical,null,null,Physical Documents,null,0,null,null,1
+6484,prdb-5191,US,Medical,null,null,Design Software,null,0,null,null,1
+6485,prdb-5192,US,Medical,null,null,Design Software,null,0,null,null,1
+6492,prdb-5199,US,Medical,null,null,Configuration Network,null,10480,null,null,1
+6493,prdb-5200,US,Medical,null,null,Implementation Email,null,1000,null,null,1
+6510,prdb-5217,US,Medical,null,null,Configuration Website,Physical Theft,0,null,null,1
+6530,prdb-5237,US,Medical,null,null,Configuration Phone,null,1000,null,null,1
+6541,prdb-5248,US,Medical,null,null,Implementation Email,null,1000,null,null,1
+6552,prdb-5259,US,Medical,null,null,Physical Documents,null,0,null,null,1
+6558,prdb-5265,US,Medical,null,null,Design Software,Physical Theft,0,null,null,1
+6567,prdb-5274,US,Medical,null,null,Implementation Email,null,0,null,null,1
+6574,prdb-5281,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+6591,prdb-5298,US,Medical,null,null,Design Software Implementation Email,null,1134,null,null,1
+6605,prdb-5312,US,Medical,null,null,Design Software,null,1137,null,null,1
+6619,prdb-5326,US,Medical,null,null,Configuration Website,null,1102,null,null,1
+6634,prdb-5341,US,Medical,null,null,Design Software,null,100,null,null,1
+6635,prdb-5342,US,Medical,null,null,Physical Documents Implementation Email Configuration Phone,null,0,null,null,1
+6638,prdb-5345,US,Medical,null,null,Implementation Email,null,10000,null,null,1
+6657,prdb-5364,US,Medical,null,null,Configuration Network,null,1102,null,null,1
+6670,prdb-5377,US,Medical,null,null,Design Software,Physical Theft,0,null,null,1
+6690,prdb-5397,US,Medical,null,null,Physical Documents Implementation Email Configuration Phone,Physical Theft,0,null,null,1
+6711,prdb-5418,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+6724,prdb-5431,US,Medical,null,null,Implementation Email,null,0,null,null,1
+6736,prdb-5443,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+6761,prdb-5468,US,Medical,null,null,Physical Documents Implementation Email,null,0,null,null,1
+6764,prdb-5471,US,Medical,null,null,Implementation Email,null,0,null,null,1
+6768,prdb-5475,US,Medical,null,null,Configuration Network,null,1017,null,null,1
+6775,prdb-5482,US,Medical,null,null,Implementation Email Configuration Phone,Physical Theft,0,null,null,1
+6802,prdb-5509,US,Medical,null,null,Implementation Email Configuration Network,null,0,null,null,1
+6804,prdb-5511,US,Medical,null,null,Configuration Network,Physical Loss,10000,null,null,1
+6809,prdb-5516,US,Medical,null,null,Physical Documents,null,0,null,null,1
+6819,prdb-5526,US,Medical,null,null,Configuration Network,Physical Theft,1017,null,null,1
+6835,prdb-5542,US,Medical,null,null,Physical Documents,null,0,null,null,1
+6844,prdb-5551,US,Medical,null,null,Design Programming error,null,0,null,null,1
+6849,prdb-5556,US,Medical,null,null,Configuration Phone,Spoof Scam Phishing,1090,null,null,1
+6850,prdb-5557,US,Medical,null,null,Configuration Phone,Spoof Phishing,1090,null,null,1
+6869,prdb-5576,US,Medical,null,null,Physical Documents,null,0,null,null,1
+6879,prdb-5586,US,Medical,null,null,Physical Documents,null,0,null,null,1
+6881,prdb-5588,US,Medical,null,null,Implementation Email,null,0,null,null,1
+6887,prdb-5594,US,Medical,null,null,Configuration Phone,Physical Theft,0,null,null,1
+6895,prdb-5602,US,Medical,null,null,Design Software,Physical Theft,1000,null,null,1
+6900,prdb-5607,US,Medical,null,null,Configuration Website,null,1103,null,null,1
+6901,prdb-5608,US,Medical,null,null,Configuration Network Website,null,10480,null,null,1
+6912,prdb-5619,US,Medical,null,null,Configuration Network,null,0,null,null,1
+6914,prdb-5621,US,Medical,null,null,Configuration Phone,Physical Theft,0,null,null,1
+6922,prdb-5629,US,Medical,null,null,Configuration Phone,Physical Theft,100000,null,null,1
+6934,prdb-5641,US,Medical,null,null,Physical Documents,null,0,null,null,1
+6938,prdb-5645,US,Medical,null,null,Implementation Email,null,0,null,null,1
+6960,prdb-5667,US,Medical,null,null,Implementation Email,Physical Theft,1025,null,null,1
+6980,prdb-5687,US,Medical,null,null,Implementation Email,null,0,null,null,1
+6987,prdb-5694,US,Medical,null,null,Implementation Email Configuration Phone,Physical Theft,0,null,null,1
+7007,prdb-5714,US,Medical,null,null,Implementation Email,Physical Theft,10300,null,null,1
+7010,prdb-5717,US,Medical,null,null,Implementation Email,null,10000,null,null,1
+7014,prdb-5721,US,Medical,null,null,Implementation Email,null,10200,null,null,1
+7027,prdb-5734,US,Medical,null,null,Implementation Email,null,10000,null,null,1
+7031,prdb-5738,US,Medical,null,null,Physical Documents,null,0,null,null,1
+7046,prdb-5753,US,Medical,null,null,Implementation Email Configuration Phone,null,111,null,null,1
+7066,prdb-5773,US,Medical,null,null,Physical Documents,null,1093,null,null,1
+7067,prdb-5774,US,Medical,null,null,Physical Documents Configuration Phone,null,1093,null,null,1
+7069,prdb-5776,US,Medical,null,null,Implementation Email,null,1127,null,null,1
+7083,prdb-5790,US,Medical,null,null,Design Programming error Configuration Phone,null,0,null,null,1
+7084,prdb-5791,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+7089,prdb-5796,US,Medical,null,null,Configuration Network,null,0,null,null,1
+7104,prdb-5811,US,Medical,null,Information Exchange Spam,Implementation Email,null,0,null,null,1
+7145,prdb-5852,US,Medical,null,null,Physical Documents,null,1001,null,null,1
+7170,prdb-5877,US,Medical,null,null,Design Software Configuration Network Website,Physical Theft,10000,null,null,1
+7174,prdb-5881,US,Medical,null,null,Implementation Email Configuration Phone,null,10000,null,null,1
+7180,prdb-5887,US,Medical,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+7199,prdb-5906,US,Medical,null,null,Implementation Email Configuration Network Website,null,10228,null,null,1
+7235,prdb-5942,US,Medical,null,null,Physical Documents Implementation Email,null,1067,null,null,1
+7254,prdb-5961,US,Medical,null,null,Configuration Network,null,10930,null,null,1
+7262,prdb-5969,US,Medical,null,null,Configuration Removable media,Delete Destruction,10680,null,null,1
+7288,prdb-5995,US,Medical,null,null,Implementation Email,null,10228,null,null,1
+7317,prdb-6024,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+7319,prdb-6026,US,Medical,null,null,Configuration Phone,Physical Theft,0,null,null,1
+7355,prdb-6062,US,Medical,null,null,Configuration Phone Website,null,11000,null,null,1
+7379,prdb-6086,US,Medical,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+7416,prdb-6123,US,Medical,null,null,Implementation Email,null,0,null,null,1
+7418,prdb-6125,US,Medical,null,null,Design Software Implementation Email,Spoof Scam Phishing,0,null,null,1
+7428,prdb-6135,US,Medical,null,null,Configuration Website,null,10,null,null,1
+7434,prdb-6141,US,Medical,null,null,Implementation Email,null,0,null,null,1
+7435,prdb-6142,US,Medical,null,null,Configuration Network,null,0,null,null,1
+7436,prdb-6143,US,Medical,null,null,Configuration Network,null,0,null,null,1
+7449,prdb-6156,US,Medical,null,null,Configuration Website,null,1139,null,null,1
+7450,prdb-6157,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7454,prdb-6161,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7456,prdb-6163,US,Medical,null,null,Configuration Website,null,1,null,null,1
+7462,prdb-6169,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7467,prdb-6174,US,Medical,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+7468,prdb-6175,US,Medical,null,null,Configuration Website,null,1,null,null,1
+7469,prdb-6176,US,Medical,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+7472,prdb-6179,US,Medical,null,null,Implementation Email,null,0,null,null,1
+7476,prdb-6183,US,Medical,null,null,Implementation SMS,null,0,null,null,1
+7482,prdb-6189,US,Medical,null,null,Configuration Network Website,null,1145,null,null,1
+7487,prdb-6194,US,Medical,null,null,Configuration Phone,Physical Theft,0,null,null,1
+7491,prdb-6198,US,Medical,null,null,Physical Documents,null,1087,null,null,1
+7499,prdb-6206,US,Medical,null,null,Implementation SMS,null,0,null,null,1
+7503,prdb-6210,US,Medical,null,null,Implementation Email SMS,null,0,null,null,1
+7508,prdb-6215,US,Medical,null,null,Configuration Network Website,Physical Theft,0,null,null,1
+7530,prdb-6237,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7537,prdb-6244,US,Medical,null,null,Implementation Email Configuration Website,null,1,null,null,1
+7538,prdb-6245,US,Medical,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+7541,prdb-6248,US,Medical,null,null,Implementation SMS,null,0,null,null,1
+7544,prdb-6251,US,Medical,null,null,Configuration Website,null,1074,null,null,1
+7545,prdb-6252,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7546,prdb-6253,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7550,prdb-6257,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7556,prdb-6263,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7563,prdb-6270,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7567,prdb-6274,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7580,prdb-6287,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7592,prdb-6299,US,Medical,null,null,Configuration Network,null,0,null,null,1
+7602,prdb-6309,US,Medical,null,null,Configuration Website,Physical Theft,1000,null,null,1
+7615,prdb-6322,US,Medical,null,null,Implementation Email,null,0,null,null,1
+7617,prdb-6324,US,Medical,null,null,Configuration Website,null,1,null,null,1
+7625,prdb-6332,US,Medical,null,null,Configuration Website,null,11,null,null,1
+7632,prdb-6339,US,Medical,null,null,Implementation SMS,null,0,null,null,1
+7636,prdb-6343,US,Medical,null,null,Configuration Website,null,1,null,null,1
+7647,prdb-6354,US,Medical,null,null,Configuration Website,null,1,null,null,1
+7649,prdb-6356,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7659,prdb-6366,US,Medical,null,null,Configuration Network Website,null,1,null,null,1
+7660,prdb-6367,US,Medical,null,null,Configuration Network,null,0,null,null,1
+7667,prdb-6374,US,Medical,null,null,Design Software Configuration Website,null,11000,null,null,1
+7688,prdb-6395,US,Medical,null,null,Configuration Website,null,1139,null,null,1
+7693,prdb-6400,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7695,prdb-6402,US,Medical,null,null,Implementation Email,null,0,null,null,1
+7702,prdb-6409,US,Medical,null,null,Configuration Network,null,1062510,null,null,1
+7703,prdb-6410,US,Medical,null,null,Design Software,null,1100,null,null,1
+7714,prdb-6421,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7727,prdb-6434,US,Medical,null,null,Configuration Phone Website,null,1,null,null,1
+7729,prdb-6436,US,Medical,null,null,Configuration Website,null,1,null,null,1
+7730,prdb-6437,US,Medical,null,null,Implementation Email,null,1,null,null,1
+7737,prdb-6444,US,Medical,null,null,Configuration Website,null,10172,null,null,1
+7738,prdb-6445,US,Medical,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+7750,prdb-6457,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7751,prdb-6458,US,Medical,null,null,Configuration Website,null,109,null,null,1
+7761,prdb-6468,US,Medical,null,null,Configuration Network,null,10104,null,null,1
+7762,prdb-6469,US,Medical,null,null,Configuration Website,null,1,null,null,1
+7783,prdb-6490,US,Medical,null,null,Implementation Email Configuration Phone,null,1,null,null,1
+7786,prdb-6493,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7788,prdb-6495,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+7789,prdb-6496,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7797,prdb-6504,US,Medical,null,null,Implementation SMS Configuration Phone,null,0,null,null,1
+7808,prdb-6515,US,Medical,null,null,Implementation Email,null,11,null,null,1
+7809,prdb-6516,US,Medical,null,null,Implementation Email,null,1,null,null,1
+7811,prdb-6518,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7812,prdb-6519,US,Medical,null,null,Physical Documents Configuration Website,null,10000,null,null,1
+7820,prdb-6527,US,Medical,null,null,Configuration Website,null,10,null,null,1
+7836,prdb-6543,US,Medical,null,null,Implementation Email,null,1,null,null,1
+7844,prdb-6551,US,Medical,null,null,Physical Documents,null,1,null,null,1
+7847,prdb-6554,US,Medical,null,null,Configuration Website,null,10,null,null,1
+7848,prdb-6555,US,Medical,null,null,Configuration Network,null,1,null,null,1
+7851,prdb-6558,US,Medical,null,null,Implementation Email,null,1,null,null,1
+7858,prdb-6565,US,Medical,null,null,Implementation SMS Configuration Phone,Physical Theft,0,null,null,1
+7864,prdb-6571,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+7866,prdb-6573,US,Medical,null,null,Configuration Phone,null,10790,null,null,1
+7876,prdb-6583,US,Medical,null,null,Configuration Network Website,null,0,null,null,1
+7889,prdb-6596,US,Medical,null,null,Implementation Email,null,0,null,null,1
+7890,prdb-6597,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+7893,prdb-6600,US,Medical,null,null,Implementation Email Configuration Website,null,0,null,null,1
+7913,prdb-6620,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7916,prdb-6623,US,Medical,null,null,Implementation Email Configuration Website,null,1,null,null,1
+7918,prdb-6625,US,Medical,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+7919,prdb-6626,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7939,prdb-6646,US,Medical,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+7955,prdb-6662,US,Medical,null,null,Implementation Email,null,10400,null,null,1
+7964,prdb-6671,US,Medical,null,null,Configuration Website,null,1,null,null,1
+7965,prdb-6672,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7979,prdb-6686,US,Medical,null,null,Configuration Website,null,0,null,null,1
+7986,prdb-6693,US,Medical,null,null,Configuration Network Website,null,0,null,null,1
+7996,prdb-6703,US,Medical,null,null,Implementation Email Configuration Website,null,0,null,null,1
+8001,prdb-6708,US,Medical,null,null,Configuration Website,null,0,null,null,1
+8005,prdb-6712,US,Medical,null,null,Configuration Website,null,0,null,null,1
+8014,prdb-6721,US,Medical,null,null,Implementation Email,null,0,null,null,1
+8065,prdb-6772,US,Medical,null,null,Configuration Network,null,0,null,null,1
+8069,prdb-6776,US,Medical,null,null,Configuration Website,null,0,null,null,1
+8071,prdb-6778,US,Medical,null,null,Configuration Phone,Physical Theft,0,null,null,1
+8100,prdb-6807,US,Medical,null,null,Implementation Email Configuration Phone,Physical Theft,0,null,null,1
+8110,prdb-6817,US,Medical,null,null,Configuration Network,null,11000000,null,null,1
+8137,prdb-6844,US,Medical,null,null,Configuration Network,null,10946,null,null,1
+8168,prdb-6875,US,Medical,null,null,Implementation Email Configuration Network,null,1000,null,null,1
+8177,prdb-6884,US,Medical,null,null,Configuration Network,null,1100000,null,null,1
+8238,prdb-6945,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+8250,prdb-6957,US,Medical,null,null,Configuration Network,null,10000,null,null,1
+8256,prdb-6963,US,Medical,null,null,Design Software Implementation Email Configuration Phone,null,0,null,null,1
+8262,prdb-6969,US,Medical,null,null,Configuration Network,null,10000000,null,null,1
+8266,prdb-6973,US,Medical,null,null,Physical Documents Implementation Email,null,0,null,null,1
+8277,prdb-6984,US,Medical,null,null,Implementation Email Configuration Phone,Physical Theft,0,null,null,1
+8279,prdb-6986,US,Medical,null,null,Design Software,null,0,null,null,1
+8298,prdb-7005,US,Medical,null,null,Configuration Network,null,11100,null,null,1
+8307,prdb-7014,US,Medical,null,null,Configuration Network,null,11100,null,null,1
+8318,prdb-7025,US,Medical,null,null,Implementation Email,null,1064,null,null,1
+8327,prdb-7034,US,Medical,null,null,Configuration Network,null,11000,null,null,1
+8332,prdb-7039,US,Medical,null,null,Design Software,null,0,null,null,1
+8345,prdb-7052,US,Medical,null,null,Design Software,null,0,null,null,1
+8367,prdb-7074,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+8371,prdb-7078,US,Medical,null,null,Implementation Email,null,1009,null,null,1
+8380,prdb-7087,US,Medical,null,null,Implementation Email,null,10179,null,null,1
+8388,prdb-7095,US,Medical,null,null,Implementation Email,null,0,null,null,1
+8409,prdb-7116,US,Medical,null,null,Implementation Email,null,0,null,null,1
+8444,prdb-7151,US,Medical,null,Information Exchange Spam,Implementation Email Configuration Phone,Spoof Phishing,1024,null,null,1
+8475,prdb-7182,US,Medical,null,null,Design Software,null,1124,null,null,1
+8504,prdb-7211,US,Medical,null,null,Implementation Email,null,1000,null,null,1
+8507,prdb-7214,US,Medical,null,null,Implementation Email,null,1000,null,null,1
+8514,prdb-7221,US,Medical,null,null,Configuration Website,null,1076,null,null,1
+8556,prdb-7263,US,Medical,null,null,Configuration Phone Network,null,0,null,null,1
+8571,prdb-7278,US,Medical,null,null,Design Programming error Implementation Email Configuration Phone,null,0,null,null,1
+8584,prdb-7291,US,Medical,null,Information Exchange Spam,Implementation Email,null,0,null,null,1
+8596,prdb-7303,US,Medical,null,null,Implementation Email,Spoof Scam Phishing,0,null,null,1
+8598,prdb-7305,US,Medical,null,null,Physical Documents Configuration Network,null,1062,null,null,1
+8655,prdb-7362,US,Medical,null,null,Implementation Email Configuration Website,null,1100,null,null,1
+8686,prdb-7393,US,Medical,null,null,Configuration Phone Website,null,10401,null,null,1
+8687,prdb-7394,US,Medical,null,null,Configuration Network,null,10401,null,null,1
+8710,prdb-7417,US,Medical,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+8722,prdb-7429,US,Medical,null,null,Physical Documents Configuration Phone,null,0,null,null,1
+8726,prdb-7433,US,Medical,null,null,Implementation Email,null,10700,null,null,1
+8752,prdb-7459,US,Medical,null,Script or Program Ransomware,Configuration Phone,null,0,null,null,1
+8780,prdb-7487,US,Medical,null,null,Configuration Phone,null,0,null,null,1
+8787,prdb-7494,US,Medical,null,null,Configuration Website,null,10891,null,null,1
+8812,prdb-7519,US,Medical,null,null,Implementation Email,null,0,null,null,1
+8820,prdb-7527,US,Medical,null,null,Configuration Network,null,0,null,null,1
+8838,prdb-7545,US,Medical,null,null,Design Software,null,0,null,null,1
+8862,prdb-7569,US,Medical,null,null,Design Software,null,0,null,null,1
+8898,prdb-7605,US,Medical,null,Script or Program Ransomware,Configuration Network Website,null,1000,null,null,1
+8899,prdb-7606,US,Medical,null,null,Configuration Network,null,11000,null,null,1
+8911,prdb-7618,US,Medical,null,null,Configuration Network,null,1042,null,null,1
+8922,prdb-7629,US,Medical,null,null,Configuration Network,null,11400,null,null,1
+8939,prdb-7646,US,Medical,null,null,Configuration Network,null,10164,null,null,1
+8946,prdb-7653,US,Medical,null,null,Configuration Network,null,1126,null,null,1
+8949,prdb-7656,US,Medical,null,null,Implementation Email,null,1145,null,null,1
+8950,prdb-7657,US,Medical,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+8959,prdb-7666,US,Medical,null,null,Implementation Email,null,0,null,null,1
+8967,prdb-7674,US,Medical,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+8968,prdb-7675,US,Medical,null,null,Configuration Website,null,0,null,null,1
+8982,prdb-7689,US,Medical,null,null,Implementation Email,null,0,null,null,1
+8983,prdb-7690,US,Medical,null,null,Configuration Website,null,0,null,null,1
+8994,prdb-7701,US,Medical,null,null,Configuration Website,null,0,null,null,1
+8998,prdb-7705,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9000,prdb-7707,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9002,prdb-7709,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9004,prdb-7711,US,Medical,null,null,Configuration Website,null,0,null,null,1
+9007,prdb-7714,US,Medical,null,null,Configuration Website,null,0,null,null,1
+9008,prdb-7715,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9011,prdb-7718,US,Medical,null,null,Configuration Website,null,0,null,null,1
+9012,prdb-7719,US,Medical,null,null,Configuration Website,null,0,null,null,1
+9013,prdb-7720,US,Medical,null,null,Configuration Phone Website,null,0,null,null,1
+9014,prdb-7721,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9018,prdb-7725,US,Medical,null,null,Configuration Website,null,0,null,null,1
+9021,prdb-7728,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9028,prdb-7735,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9029,prdb-7736,US,Medical,null,null,Configuration Network,null,0,null,null,1
+9032,prdb-7739,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9035,prdb-7742,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9037,prdb-7744,US,Medical,null,Script or Program Ransomware,Configuration Network,null,0,null,null,1
+9047,prdb-7754,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9048,prdb-7755,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9051,prdb-7758,US,Medical,null,null,Configuration Network,null,1132,null,null,1
+9053,prdb-7760,US,Medical,null,null,Implementation Email,null,11368,null,null,1
+9075,prdb-7782,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9080,prdb-7787,US,Medical,null,null,Physical Documents,null,0,null,null,1
+9088,prdb-7795,US,Medical,null,null,Configuration Website,null,0,null,null,1
+9105,prdb-7812,US,Medical,null,null,Implementation Email,Spoof Phishing,0,null,null,1
+9110,prdb-7817,US,Medical,null,null,Implementation Email Configuration Network,null,1000,null,null,1
+9121,prdb-7828,US,Medical,null,null,Implementation Email,null,0,null,null,1
+9142,prdb-7849,US,Medical,null,null,Configuration Network,null,10143,null,null,1
+9151,prdb-7858,US,Medical,null,null,Implementation Email,null,10000,null,null,1
+9154,prdb-7861,US,Medical,null,null,Design Software Implementation Email Configuration Phone,null,0,null,null,1
+9170,prdb-7877,US,Medical,null,null,Configuration Network,null,10229,null,null,1
+9190,prdb-7897,US,Medical,null,null,Configuration Network,null,10198,null,null,1
+9194,prdb-7901,US,Medical,null,null,Configuration Network,null,106008,null,null,1
+9204,prdb-7911,US,Medical,null,null,Physical Documents Configuration Phone,null,106008,null,null,1
+9218,prdb-7925,US,Medical,null,null,Implementation Email,null,1074,null,null,1
+9243,prdb-7950,US,Medical,null,null,Configuration Network,null,1069,null,null,1
+9244,prdb-7951,US,Medical,null,null,Configuration Network,null,1069,null,null,1
+9306,prdb-8013,US,Medical,null,null,Implementation Email,null,11347,null,null,1
+9307,prdb-8014,US,Medical,null,null,Implementation Email,null,11347,null,null,1
+9329,prdb-8036,US,Medical,null,null,Configuration Network,null,1128,null,null,1
+9352,prdb-8059,US,Medical,null,null,Configuration Phone,null,1000,null,null,1
+9418,prdb-8125,US,Medical,null,null,Implementation Email,null,1070,null,null,1
+9430,prdb-8137,US,Medical,null,null,Implementation Email,null,10313,null,null,1
+9461,prdb-8168,US,Medical,null,null,Implementation Email,null,1071,null,null,1
+9463,prdb-8170,US,Medical,null,null,Implementation Email,null,1100,null,null,1
+9466,prdb-8173,US,Medical,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+9475,prdb-8182,US,Medical,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+9494,prdb-8201,US,Medical,null,null,Implementation Email Configuration Phone Network,Physical Theft,0,null,null,1
+9516,prdb-8223,US,Medical,null,null,Configuration Network,null,10000,null,null,1
+9524,prdb-8231,US,Medical,null,null,Implementation Email,null,10396,null,null,1
+9583,prdb-8290,US,Medical,null,null,Implementation Email,null,105309,null,null,1
+9588,prdb-8295,US,Medical,null,null,Implementation Email,null,10000,null,null,1
+9597,prdb-8304,US,Medical,null,null,Implementation Email,null,10000,null,null,1
+9623,prdb-8330,US,Medical,null,null,Implementation Email,null,1112,null,null,1
+9635,prdb-8342,US,Medical,null,null,Configuration Network,null,10862,null,null,1
+9692,prdb-8399,US,Medical,null,null,Implementation Email,null,1117,null,null,1
+9694,prdb-8401,US,Medical,null,null,Implementation Email,null,111589,null,null,1
+9702,prdb-8409,US,Medical,null,null,Implementation Email,null,1002,null,null,1
+9706,prdb-8413,US,Medical,null,null,Implementation Email,null,1086,null,null,1
+9759,prdb-8466,US,Medical,null,null,Configuration Network,null,10465,null,null,1
+9770,prdb-8477,US,Medical,null,null,Configuration Network,null,11617,null,null,1
+9803,prdb-8510,US,Medical,null,null,Implementation Email,null,1143,null,null,1
+9804,prdb-8511,US,Medical,null,null,Implementation Email,null,10263,null,null,1
+9806,prdb-8513,US,Medical,null,null,Configuration Network,null,11639,null,null,1
+9809,prdb-8516,US,Medical,null,null,Implementation Email,null,1026,null,null,1
+9845,prdb-8552,US,Medical,null,null,Implementation Email Configuration Network,null,10993,null,null,1
+9872,prdb-8579,US,Medical,null,null,Implementation Email Configuration Network,null,106000,null,null,1
+9879,prdb-8586,US,Medical,null,null,Implementation Email,null,10970,null,null,1
+9886,prdb-8593,US,Medical,null,null,Configuration Network,null,1012,null,null,1
+9926,prdb-8633,US,Medical,null,null,Configuration Network,null,10251800,null,null,1
+9938,prdb-8645,US,Medical,null,null,Configuration Network,null,116262,null,null,1
+9955,prdb-8662,US,Medical,null,null,Implementation Email,null,1041,null,null,1
+10025,prdb-8732,US,Medical,null,null,Implementation Email Configuration Network,null,11100,null,null,1
+10078,prdb-8785,US,NGO,null,null,Configuration Phone,Physical Theft,0,null,null,1
+10081,prdb-8788,US,NGO,null,null,Configuration Phone,null,0,null,null,1
+10086,prdb-8793,US,NGO,null,null,Configuration Network,null,0,null,null,1
+10100,prdb-8807,US,NGO,null,null,Configuration Phone,null,0,null,null,1
+10105,prdb-8812,US,NGO,null,null,Implementation Email Configuration Network Website,null,0,null,null,1
+10116,prdb-8823,US,NGO,null,null,Physical Documents,Physical Theft,0,null,null,1
+10123,prdb-8830,US,NGO,null,null,Configuration Website,null,0,null,null,1
+10128,prdb-8835,US,NGO,null,null,Design Software Implementation Email Configuration Phone,null,0,null,null,1
+10135,prdb-8842,US,NGO,null,null,Implementation Email Configuration Phone Website,null,0,null,null,1
+10148,prdb-8855,US,NGO,null,null,Physical Documents,null,0,null,null,1
+10154,prdb-8861,US,NGO,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+10155,prdb-8862,US,NGO,null,null,Physical Documents Partner,null,0,null,null,1
+10166,prdb-8873,US,NGO,null,null,Implementation SMS,null,0,null,null,1
+10167,prdb-8874,US,NGO,null,null,Configuration Phone,null,0,null,null,1
+10169,prdb-8876,US,NGO,null,null,Implementation Email Configuration Website,null,0,null,null,1
+10171,prdb-8878,US,NGO,null,null,Implementation Email,null,0,null,null,1
+10172,prdb-8879,US,NGO,null,null,Implementation Email,null,0,null,null,1
+10173,prdb-8880,US,NGO,null,null,Design Web application,null,0,null,null,1
+10175,prdb-8882,US,NGO,null,null,Configuration Network,Spoof Phishing,0,null,null,1
+10176,prdb-8883,US,NGO,null,null,Implementation Email Configuration Phone,null,0,null,null,1
+10177,prdb-8884,US,NGO,null,null,Configuration Phone Website,null,0,null,null,1
+10178,prdb-8885,US,NGO,null,null,Physical Documents,null,0,null,null,1
+10981,vcdb-85,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+10989,vcdb-93,US,Social Services,Convenience,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11008,vcdb-112,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11013,vcdb-117,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11049,vcdb-153,US,Social Services,Financial Gain,null,Configuration LAN access,Physical Data mishandling Privilege abuse,1,Fraudulent transaction Misrepresentation Modify data Disclosure of Information Corruption of Information Theft of Resources,null,1
+11063,vcdb-167,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11248,vcdb-352,CA,Information Technology,null,null,Design Web application,null,1000000,null,null,1
+11257,vcdb-361,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11265,vcdb-369,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11332,vcdb-436,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11367,vcdb-471,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11391,vcdb-495,US,Security Services,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,1000,Disclosure of Information,null,1
+11395,vcdb-499,US,Retailer,Financial Gain,null,Configuration Website,Spoof Forgery,1,Created account Alter behavior Increased Access Disclosure of Information Corruption of Information,null,1
+11401,vcdb-505,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11416,vcdb-520,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11417,vcdb-521,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11419,vcdb-523,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11512,vcdb-616,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11517,vcdb-621,US,Utilities,null,null,Design Web application,null,104179,Disclosure of Information,3700000,1
+11525,vcdb-629,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11528,vcdb-632,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11544,vcdb-648,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11547,vcdb-651,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11571,vcdb-675,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11617,vcdb-721,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11668,vcdb-772,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11741,vcdb-845,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11795,vcdb-899,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11797,vcdb-901,FI,Information Technology,null,null,Design Web application,null,1100000,Disclosure of Information,null,1
+11813,vcdb-917,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11868,vcdb-972,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11914,vcdb-1018,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11915,vcdb-1019,BR,Education,Ideology Status,null,Design Web application,Physical Loss,10,Theft of Resources Disclosure of Information,null,1
+11923,vcdb-1027,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11952,vcdb-1056,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+11973,vcdb-1077,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12001,vcdb-1105,US,Social Services,Thrill,null,Configuration Remote access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12016,vcdb-1120,US,Social Services,Convenience,null,Configuration LAN access,Physical Data mishandling,1,Disclosure of Information,null,1
+12067,vcdb-1171,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12096,vcdb-1200,US,Social Services,null,null,Configuration LAN access,Physical Data mishandling,1,Disclosure of Information,null,1
+12127,vcdb-1231,US,Education,null,null,Design Web application,Physical Loss,1,Theft of Resources Disclosure of Information,2600000,1
+12137,vcdb-1241,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12150,vcdb-1254,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12223,vcdb-1327,US,Social Services,Convenience,null,Configuration LAN access,Physical Data mishandling,1,Disclosure of Information,null,1
+12307,vcdb-1411,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,11,Modify data Disclosure of Information Corruption of Information,null,1
+12336,vcdb-1440,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12393,vcdb-1497,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12431,vcdb-1535,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12502,vcdb-1606,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12520,vcdb-1624,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12542,vcdb-1646,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12544,vcdb-1648,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12570,vcdb-1674,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12606,vcdb-1710,US,Consulting Services,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,100,Disclosure of Information,null,1
+12624,vcdb-1728,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12716,vcdb-1820,US,Finance,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,1000,Disclosure of Information,null,1
+12751,vcdb-1855,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12762,vcdb-1866,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12768,vcdb-1872,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12783,vcdb-1887,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12812,vcdb-1916,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12821,vcdb-1925,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12833,vcdb-1937,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12868,vcdb-1972,CA,Medical,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Modify data Disclosure of Information Corruption of Information,null,1
+12912,vcdb-2016,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+12946,vcdb-2050,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13048,vcdb-2152,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13062,vcdb-2166,CA,Transport,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13097,vcdb-2201,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13167,vcdb-2271,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13170,vcdb-2274,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13175,vcdb-2279,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13257,vcdb-2361,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13259,vcdb-2363,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13281,vcdb-2385,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13319,vcdb-2423,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13376,vcdb-2480,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13385,vcdb-2489,US,Social Services,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Modify data Disclosure of Information Corruption of Information,null,1
+13388,vcdb-2492,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13472,vcdb-2576,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13488,vcdb-2592,AU,Telecommunications,null,null,Implementation Malfunction,null,1,Disclosure of Information,null,1
+13491,vcdb-2595,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13546,vcdb-2650,US,Social Services,null,null,Configuration Misconfiguration,null,1,Disclosure of Information,null,1
+13547,vcdb-2651,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13556,vcdb-2660,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13571,vcdb-2675,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13586,vcdb-2690,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13587,vcdb-2691,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13609,vcdb-2713,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13646,vcdb-2750,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13659,vcdb-2763,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13707,vcdb-2811,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13713,vcdb-2817,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13734,vcdb-2838,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13788,vcdb-2892,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13832,vcdb-2936,US,Government,Thrill,Information Exchange Email misuse,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13877,vcdb-2981,US,Education,null,Script or Program SQLi,Design Web application Implementation,null,110000,Repurpose Disclosure of Information Theft of Resources,null,1
+13885,vcdb-2989,US,Social Services,Convenience,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13910,vcdb-3014,US,Social Services,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13930,vcdb-3034,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13934,vcdb-3038,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13955,vcdb-3059,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+13988,vcdb-3092,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,11,Modify data Disclosure of Information Corruption of Information,null,1
+13989,vcdb-3093,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14032,vcdb-3136,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14084,vcdb-3188,US,Civil Services,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14102,vcdb-3206,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14103,vcdb-3207,US,Social Services,null,null,Configuration LAN access,Physical Data mishandling,1,Disclosure of Information,null,1
+14128,vcdb-3232,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14246,vcdb-3350,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14306,vcdb-3410,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14308,vcdb-3412,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14311,vcdb-3415,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14322,vcdb-3426,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14412,vcdb-3516,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14472,vcdb-3576,GB,Information Technology,Financial Gain,null,Design Web application,Physical Loss,1000000,Theft of Resources Disclosure of Information,null,1
+14499,vcdb-3603,US,Tourism,Financial Gain,null,Design Web application,Physical Loss,11,Theft of Resources Disclosure of Information,null,1
+14548,vcdb-3652,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14572,vcdb-3676,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14632,vcdb-3736,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14648,vcdb-3752,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14677,vcdb-3781,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14693,vcdb-3797,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14716,vcdb-3820,SE,Sport,null,null,Configuration Misconfiguration,null,1000000,Disclosure of Information,null,1
+14756,vcdb-3860,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14774,vcdb-3878,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14789,vcdb-3893,US,Social Services,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14797,vcdb-3901,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14805,vcdb-3909,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14811,vcdb-3915,US,Finance Bank,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14855,vcdb-3959,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+14916,vcdb-4020,US,Consulting Services,Financial Gain,Script or Program Downloader,Implementation Web download,Steal Capture app data,101000,Disclosure of Information,null,1
+15023,vcdb-4127,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+15068,vcdb-4172,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+15069,vcdb-4173,US,Medical,null,null,Design Programming error,null,10000,null,null,1
+15071,vcdb-4175,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+15072,vcdb-4176,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+15077,vcdb-4181,US,Finance,Financial Gain,null,Design Web application,null,1,Disclosure of Information,null,1
+15139,vcdb-4243,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+15151,vcdb-4255,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+15221,vcdb-4325,US,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+15283,vcdb-4387,US,Social Services,Convenience,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+15357,vcdb-4461,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+15559,vcdb-4663,US,Medical,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,11,Disclosure of Information,null,1
+15613,vcdb-4717,US,Finance Real Estate,Espionage Political Gain,null,Configuration LAN access,Physical Privilege abuse,1100,Disclosure of Information,null,1
+15646,vcdb-4750,US,Social Services,null,null,Configuration Misconfiguration,null,1,Disclosure of Information,null,1
+15685,vcdb-4789,US,Entertainment,Thrill,Script or Program SQLi,Design Web application Implementation,null,1000000,Repurpose Disclosure of Information Theft of Resources,null,1
+15693,vcdb-4797,US,Security Services,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,1000,Disclosure of Information,null,1
+15720,vcdb-4824,US,Civil Services,null,null,Configuration LAN access,Physical Possession abuse Privilege abuse Spoof Knowledge abuse,1,Disclosure of Information,null,1
+15738,vcdb-4842,GB,Retailer,Ideology Status,Script or Program SQLi,Design Web application Implementation,null,1,Repurpose Disclosure of Information Theft of Resources,null,1
+15866,vcdb-4970,US,Medical,Asset and fraud Financial Gain,null,Configuration LAN access,Physical Privilege abuse,10,Disclosure of Information,null,1
+15899,vcdb-5003,US,Manufacturing,Espionage Political Gain,null,Configuration LAN access,Physical Privilege abuse,100,Disclosure of Information,null,1
+15955,vcdb-5059,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+15961,vcdb-5065,US,Civil Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+15976,vcdb-5080,US,Medical,Asset and fraud Financial Gain Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+15982,vcdb-5086,US,Publisher,Ideology Status,null,Design Web application,Authenticate Use of stolen creds,1071963,Repurpose Modify data Disclosure of Information Corruption of Information Theft of Resources,null,1
+15988,vcdb-5092,US,Civil Services,Grudge Status,null,Design Web application,null,10,Disclosure of Information,null,1
+16013,vcdb-5117,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,10000,Disclosure of Information,null,1
+16042,vcdb-5146,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16060,vcdb-5164,US,Medical,null,null,Design Web application,Physical Loss,100000,Theft of Resources,null,1
+16078,vcdb-5182,NZ,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16085,vcdb-5189,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16105,vcdb-5209,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16126,vcdb-5230,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16146,vcdb-5250,US,Civil Services,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Exfiltrate Disclosure of Information,null,1
+16177,vcdb-5281,US,Civil Services,null,null,Configuration Capacity shortage,null,1000000,null,null,1
+16183,vcdb-5287,US,Medical,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,10891,Disclosure of Information,null,1
+16191,vcdb-5295,US,Civil Services,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16241,vcdb-5345,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16270,vcdb-5374,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16354,vcdb-5458,US,Medical,Targeted Financial Gain,null,Implementation Email,Physical Misdelivery Spoof Phishing,1000,Infiltrate Exfiltrate Alter behavior Increased Access Disclosure of Information Corruption of Information,null,1
+16390,vcdb-5494,TW,Information Technology,Espionage Political Gain,null,Configuration LAN access,Physical Data mishandling Privilege abuse Spoof Knowledge abuse,1,Disclosure of Information,null,1
+16393,vcdb-5497,US,Medical,Targeted Thrill,null,Configuration LAN access,Physical Privilege abuse,1000,Disclosure of Information,null,1
+16397,vcdb-5501,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16491,vcdb-5595,NZ,Social Services,Grudge Status,null,Configuration LAN access,Spoof Knowledge abuse,1,Disclosure of Information,null,1
+16506,vcdb-5610,US,Civil Services,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16559,vcdb-5663,CA,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16572,vcdb-5676,CA,Finance Bank,Grudge Thrill Status,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16597,vcdb-5701,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16607,vcdb-5711,US,Civil Services,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16698,vcdb-5802,US,Information Technology,Financial Gain,Script or Program Spyware/Keylogger,Design Web application Configuration Direct install,Steal Capture app data,1000000,null,null,1
+16744,vcdb-5848,GB,Civil Services,null,null,Configuration LAN access,Physical Misdelivery Privilege abuse,1,Exfiltrate Disclosure of Information,null,1
+16794,vcdb-5898,US,Civil Services,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,11,Disclosure of Information,null,1
+16804,vcdb-5908,US,Medical,Legal and regulatory Thrill Damage,null,Configuration LAN access,Spoof Net misuse,1,Disclosure of Information,null,1
+16839,vcdb-5943,GB,Support Services,Ideology Legal and regulatory Damage Status,null,Design Web application,Physical Omission,10000,Disclosure of Information,310284.52,1
+16845,vcdb-5949,US,Emergency and Other Relief Services,null,null,Configuration LAN access,Physical Privilege abuse,1000000,Disclosure of Information,null,1
+16859,vcdb-5963,CA,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1043,Disclosure of Information,null,1
+16898,vcdb-6002,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+16928,vcdb-6032,null,Medical,null,null,Design Web application,null,10164,Disclosure of Information,null,1
+16945,vcdb-6049,CA,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17009,vcdb-6113,null,Transport,null,null,Design Programming error,null,1000000,Disclosure of Information,null,1
+17015,vcdb-6119,US,Education,null,null,Design Web application,Authenticate Use of stolen creds,1,Repurpose Created account Increased Access Disclosure of Information Theft of Resources,null,1
+17040,vcdb-6144,US,Education,null,null,Design Web application,Physical Loss,1,Theft of Resources Disclosure of Information,null,1
+17092,vcdb-6196,US,Information Technology,Espionage Political Gain,Script or Program Session prediction Session replay,Design Web application Implementation,null,1000000000,Disclosure of Information,null,1
+17095,vcdb-6199,IN,Transport,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17096,vcdb-6200,US,Medical,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,10604,Disclosure of Information,null,1
+17125,vcdb-6229,US,Information Technology,Asset and fraud Financial Gain Thrill,null,Design Web application,null,10679,Disclosure of Information,null,1
+17148,vcdb-6252,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse Spoof Knowledge abuse,108,Disclosure of Information,null,1
+17152,vcdb-6256,US,Education,null,null,Configuration LAN access,Physical Privilege abuse Flood Interruption,1,Denial of Service,null,1
+17155,vcdb-6259,null,Information Technology,null,Script or Program SQLi,Design Web application Implementation,null,107000,Repurpose Disclosure of Information Theft of Resources,null,1
+17162,vcdb-6266,UA,Medical,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17176,vcdb-6280,US,Medical,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,1,Alter behavior Disclosure of Information Corruption of Information,null,1
+17230,vcdb-6334,US,Security Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17262,vcdb-6366,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17278,vcdb-6382,NO,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17315,vcdb-6419,NZ,Social Services,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17342,vcdb-6446,JP,Information Technology,null,null,Design Web application,Physical Loss Authenticate Brute force,100000,Theft of Resources,null,1
+17376,vcdb-6480,US,Education,null,null,Design Web application,null,1000,null,null,1
+17389,vcdb-6493,CA,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,104,Exfiltrate Disclosure of Information,null,1
+17410,vcdb-6514,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Exfiltrate Disclosure of Information,null,1
+17418,vcdb-6522,US,Medical,Grudge Thrill Status,null,Configuration LAN access,Physical Privilege abuse,1,Exfiltrate Infiltrate Increased Access Disclosure of Information,null,1
+17423,vcdb-6527,US,Retailer,Targeted Grudge Status,null,Configuration Phone,Spoof Pretexting,1,Exfiltrate Alter behavior Disclosure of Information Corruption of Information,null,1
+17435,vcdb-6539,US,Civil Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17447,vcdb-6551,US,Medical,Grudge Legal and regulatory Damage Status,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,1440000,1
+17454,vcdb-6558,CA,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17480,vcdb-6584,GB,Civil Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17510,vcdb-6614,AU,Social Services,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17530,vcdb-6634,GB,Medical,null,null,Configuration LAN access,Physical Privilege abuse,108000,Modify data Disclosure of Information Corruption of Information,null,1
+17558,vcdb-6662,US,Medical,Financial Gain,null,Configuration Remote access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17565,vcdb-6669,US,Medical,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,1100,Disclosure of Information,null,1
+17566,vcdb-6670,US,Transport,null,null,Design Programming error,null,1,Disclosure of Information,null,1
+17641,vcdb-6745,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17661,vcdb-6765,NZ,Social Services,Asset and fraud Financial Gain Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17676,vcdb-6780,US,Finance,Espionage Political Gain,null,Configuration VPN,Physical Loss,100,Theft of Resources Misrepresentation Modify data Disclosure of Information Corruption of Information,null,1
+17693,vcdb-6797,US,Political Organization,Financial Gain,null,Design Web application,null,1100,null,null,1
+17736,vcdb-6840,US,Civil Services,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17749,vcdb-6853,US,Medical,null,null,Configuration Misconfiguration,null,1000,Disclosure of Information,null,1
+17762,vcdb-6866,US,Medical,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17781,vcdb-6885,US,Medical,Legal and regulatory Damage,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,275000,1
+17850,vcdb-6954,US,Civil Services,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17874,vcdb-6978,KR,Information Technology,Financial Gain,Script or Program Backdoor,Design Web application Implementation Email,Spoof Phishing,10000000,Alter behavior Disclosure of Information Corruption of Information,null,1
+17890,vcdb-6994,GB,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17948,vcdb-7052,CA,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+17950,vcdb-7054,US,Finance Real Estate,Financial Gain,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18002,vcdb-7106,US,Medical,Grudge Status,null,Configuration LAN access,Physical Data mishandling,1,Disclosure of Information,null,1
+18005,vcdb-7109,US,Information Technology,Ideology Status,null,Design Web application,Physical Loss,1000000,Theft of Resources Disclosure of Information,null,1
+18018,vcdb-7122,US,Civil Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18041,vcdb-7145,NZ,Finance Bank,null,null,Configuration LAN access,Physical Data mishandling Privilege abuse,1,Disclosure of Information,null,1
+18102,vcdb-7206,US,Food Establishment,null,null,Design Desktop sharing software Configuration Direct install Desktop sharing,Authenticate Brute force,1000,Disclosure of Information,null,1
+18130,vcdb-7234,CA,Social Services,null,null,Configuration Random error,Physical Misdelivery Gaffe,1,Disclosure of Information,null,1
+18145,vcdb-7249,CA,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18166,vcdb-7270,GB,Information Technology,Thrill,null,Design Web application,null,1,Modify configuration Disclosure of Information Corruption of Information,null,1
+18244,vcdb-7348,CA,Legal Services,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18265,vcdb-7369,GB,Medical,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18275,vcdb-7379,US,Information Technology,null,null,Design Web application,null,1000000,null,null,1
+18279,vcdb-7383,CA,Civil Services,Convenience,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18360,vcdb-7464,US,Finance Insurance,null,null,Design Web application,null,1100000,Disclosure of Information,null,1
+18398,vcdb-7502,IN,Information Technology,Financial Gain,null,Design Web application,null,1000000,Disclosure of Information,null,1
+18408,vcdb-7512,CA,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18409,vcdb-7513,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18412,vcdb-7516,CA,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,100,Disclosure of Information,null,1
+18443,vcdb-7547,GB,Finance Real Estate,null,null,Design Web application,null,10000,Disclosure of Information,null,1
+18452,vcdb-7556,US,Civil Services,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18470,vcdb-7574,CA,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18484,vcdb-7588,US,Education,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18487,vcdb-7591,US,Medical,null,null,Configuration Remote access,Physical Privilege abuse,1029,Disclosure of Information,null,1
+18494,vcdb-7598,US,Medical,Financial Gain,null,Design Web application,null,10000,Disclosure of Information,null,1
+18521,vcdb-7625,US,Security Services,null,null,Configuration LAN access,Physical Possession abuse Privilege abuse Spoof Knowledge abuse,1,Disclosure of Information,null,1
+18528,vcdb-7632,CA,Civil Services,Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18594,vcdb-7698,US,Medical,null,null,Configuration LAN access,Physical Privilege abuse,10271,Disclosure of Information,null,1
+18601,vcdb-7705,QA,Finance Bank,Financial Gain,Script or Program SQLi,Design Web application Implementation,null,1000000,Repurpose Disclosure of Information Theft of Resources,null,1
+18622,vcdb-7726,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Exfiltrate Disclosure of Information,null,1
+18625,vcdb-7729,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1000,Exfiltrate Disclosure of Information,null,1
+18635,vcdb-7739,US,Medical,Targeted Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Exfiltrate Disclosure of Information,null,1
+18639,vcdb-7743,US,Transport,null,null,Configuration Misconfiguration,null,1000000,Disclosure of Information,null,1
+18644,vcdb-7748,IL,Technical Services,Thrill,null,Configuration Misconfiguration,null,1000000,null,null,1
+18659,vcdb-7763,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1000,Disclosure of Information,null,1
+18698,vcdb-7802,CA,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Exfiltrate Disclosure of Information,null,1
+18702,vcdb-7806,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1100,Disclosure of Information,null,1
+18712,vcdb-7816,GB,Medical,Convenience,null,Configuration LAN access,Physical Data mishandling,1,Exfiltrate Disclosure of Information,null,1
+18724,vcdb-7828,US,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,1,Disclosure of Information,null,1
+18730,vcdb-7834,US,Social Services,null,null,Configuration LAN access,Physical Privilege abuse,1,Fraudulent transaction Disclosure of Information Theft of Resources,null,1
+18777,vcdb-7881,US,Medical,null,null,Design Web application,null,1117,Infiltrate Repurpose Increased Access Disclosure of Information Theft of Resources,null,1
+18806,vcdb-7910,NZ,Civil Services,Convenience,null,Configuration LAN access,Physical Data mishandling,1,Disclosure of Information,null,1
+18916,vcdb-8020,US,Security Services,Financial Gain,null,Implementation,null,1,Disclosure of Information,null,1
+19018,vcdb-8122,US,Information Technology,null,null,Design Web application,null,100000,Exfiltrate Infiltrate Increased Access Disclosure of Information,null,1
+19037,vcdb-8141,GB,Security Services,Espionage Competitive advantage Financial Gain Political Gain,null,Implementation Social media,Spoof Influence,1,Infiltrate Exfiltrate Alter behavior Modify privileges Increased Access Disclosure of Information Corruption of Information,null,1
+19073,vcdb-8177,CA,Telecommunications,null,null,Design Web application,null,100000,Exfiltrate Infiltrate Increased Access Disclosure of Information,null,1
+19100,vcdb-8204,CA,Social Services,Targeted Thrill,null,Configuration LAN access,Physical Privilege abuse,10,Exfiltrate Disclosure of Information,null,1
+19102,vcdb-8206,JP,Information Technology,null,null,Configuration Misconfiguration,null,11000000,Disclosure of Information,null,1
+19143,vcdb-8247,TH,Food Establishment,Financial Gain,null,Design Web application,null,1000,Exfiltrate Infiltrate Fraudulent transaction Increased Access Disclosure of Information Theft of Resources,null,1
+19181,vcdb-8285,CA,Medical,Thrill,null,Configuration LAN access,Physical Privilege abuse,102,Exfiltrate Disclosure of Information,null,1
+19195,vcdb-8299,US,Medical,null,null,Configuration Misconfiguration,null,1000000,Disclosure of Information,null,1
+19240,vcdb-8344,US,Medical,Targeted Grudge Status,null,Configuration LAN access,Physical Privilege abuse,1,Exfiltrate Disclosure of Information,null,1
+19305,vcdb-8409,NZ,Medical,Thrill,null,Design Web application Implementation,null,1000000,Exfiltrate Infiltrate Defacement Increased Access Disclosure of Information Denial of Service,null,1
+19326,vcdb-8430,CZ,Information Technology,null,null,Configuration VPN,Authenticate Use of stolen creds,1,Infiltrate Increased Access Disclosure of Information,null,1
+19348,vcdb-8452,US,Finance Bank,Targeted Grudge Status,null,Design Web application Abuse of functionality Implementation,null,106000000,Exfiltrate Infiltrate Increased Access Disclosure of Information,null,1
+19391,vcdb-8495,US,Telecommunications,Financial Gain,null,Design Web application Implementation,null,1000000,Infiltrate Increased Access Disclosure of Information,null,1
+19396,vcdb-8500,US,Medical,null,null,Design Web application,null,100000,Infiltrate Increased Access,null,1
+19415,vcdb-8519,KR,Tourism,Financial Gain,null,Design Web application,null,1000000,Infiltrate Elevate Increased Access Disclosure of Information,null,1
