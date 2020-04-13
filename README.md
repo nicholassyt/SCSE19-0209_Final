@@ -2,6 +2,15 @@
 
 Project title: SCSE19-0209 Open source intelligence gathering and data visualisation
 
+Python 3 libraries required:
+
+pip install pymongo
+pip install CurrencyConverter
+pip install Flask
+pip install scikit-learn
+pip install seaborn 
+pip install matplotlib
+
 MongoDB installation:
 Instructions can be found in the Installation Instructions folder.
 
