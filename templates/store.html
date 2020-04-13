@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+        <h1>The current collections present in MongoDB are listed.</h1>
+		
+		<table id="cur_cols" align="center" class="darkTable">
+		<th>Current Collections</th>
+		{%for i in range(0, len)%} 
+		<tr>
+		<td>{{colList[i]}}</td>
+		</tr>
+		{% endfor %}
+		</table>
+		
+		<h2>Press the store button to store the json files in the folder to MongoDB.</h2>
+		<form action="/mongo/stored" method="POST" id = "store">
+			<input class="submit_button" type="submit" name="store" id="storeButton" value="Store" onclick="change()"/>
+		</form>
+    </body>
+	<script>
+	function change(){
+		var elem = document.getElementById("storeButton");
+		if (elem.value=="Store") elem.value = "Storing";
+		else elem.value = "Store";}
+	</script>
+	<footer>
+	  <br> <button class="other_page" onclick="window.location.href = '/mongo/connect/select';">Select another action</button> <br>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

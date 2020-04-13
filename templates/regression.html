@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+        <h1>Press the button to generate the regression graph. {{ loaded }}</h1>
+		
+		<form action="/visualisation/regression" method="POST">
+			
+			<div class="upload-btn-wrapper">
+			  <button class="btn">Upload a file</button>
+			  <input type="file" accept=".json" onchange="openFile(event)" name="inputFileName"/> <br>
+			</div>
+
+			<input type='hidden' id = "inputFile" name="inputFile"> 
+			<br><br><input class="submit_button" type="submit" name="Generate Regression"/>
+		</form>
+		</div>
+		
+		<h2>{{displayFile}}</h2>
+		<img src="/static/images/{{ image1 }}/" alt="Regression Image"/> <br>
+		
+		<h2>The values obtained from the graph are listed in the table.</h2>
+		
+		<table id="reg_grp_values" align="center" class="darkTable">
+		<th>Terms</th>
+		<th>Values</th>
+		{%for i in range(0, len)%} 
+		<tr>
+		<td>{{tl[i]}}</td>
+		<td>{{vl[i]}}</td>
+		</tr>
+		{% endfor %}
+		</table>
+		
+		<br> <button class="other_page" onclick="window.location.href = '/visualisation' ;">Return to visualisation</button> <br>
+    </body>
+	
+	<script>
+	  var openFile = function(event) {
+		var input = event.target;
+		var reader = new FileReader();
+		reader.onload = function(){
+		  var text = reader.result;
+		  document.getElementById("inputFile").value = text;
+		};
+		reader.readAsText(input.files[0]);
+	  };
+	</script>
+	
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+		<h1>"Columns, Operators and SearchTerms have to be encapsulated in quotes "". Numbers do not. <br>
+		Logical operators : $and $not $or $nor<br></h1>
+		<h2>{{error}}</h2>
+		
+		<form action="/mongo/query/result" method="POST">	
+		<textarea name="querybox" rows ="15" cols="100" wrap="soft"></textarea><br><br>
+		<input class="submit_button" type="submit" value="Make Query"/>
+		</form>
+				
+		<br> <button class= "show_examples" onclick="showExamples()">Show aggregate examples</button><br><br>
+
+		<div id="examplesDIV" style="display:none;" overflow-wrap: "break-word;">
+		Aggregation example. Sums up the total monetary loss that is not an estimate by year:<br><br>
+		[	{"$match" : { 
+					"entry_date.year" : { "$gte" : 2010 },
+					"monetary_loss.currency": {"$eq": "USD" },
+					"monetary_loss.isEstimate" : { "$eq": "No" },}},
+			{"$group" : {
+				"_id" : "$entry_date.year",
+				"lossAmt" : { "$sum" : { "$sum" : "$monetary_loss.amount"}},
+				"count" : { "$sum" : 1 }}},
+			{"$project" :{
+				"_id" : 0,
+				"year" : "$_id",
+				"lossAmt" : 1,
+				"count" : 1}},
+			{"$sort" : { "year": -1 }}	]<br><br>
+
+		Aggregation example. Counts the number of ransomware occurrences by year for records:<br><br>
+		[	{"$match" : { 
+					"entry_date.year" : { "$gte" : 2010 },
+					"tool" : {"$eq": "Ransomware"}}},
+			{"$group" : {
+				"_id" : "$entry_date.year",
+				"count" : { "$sum" : 1 }}},
+			{"$project" :{
+				"_id" : 0,
+				"year" : "$_id",
+				"count" : 1}},
+			{"$sort" : { "year": -1 }}	]<br><br>
+
+		Aggregation example. Counts the number of Medical organisations incidents by year with ISODate:<br><br>
+		[	
+				{"$match" : { 
+					"industry" : {"$eq": "Medical"}}},
+				{"$project" : {
+					"year" : { "$year" : "$entry_date.date"}}
+				},
+				{"$match" : { 
+					"year" : {"$gte" : 2010}}},
+				{"$group" : {
+					"_id" : "$year",
+					"count" : { "$sum" : 1 }}},
+				{"$project" :{
+					"_id" : 0,
+					"year" : "$_id",
+					"count" : 1}},
+				{"$sort" : { "year": -1 }}	]<br><br>
+		</div>
+    </body>
+	<script type = "text/javascript">
+		function showExamples() {
+		  var x = document.getElementById("examplesDIV");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+		  } else {
+			x.style.display = "block";
+		  }
+		}
+	</script>
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+	<body>
+		<h1>The query can be formed or typed.</h1>
+		
+		<button align="right" class="show_examples" onclick="showExamples()">Show find examples</button><br>
+		
+		<div class="examples_div" id="examples_div" style="display:none;">
+		<br>Check a field's type:<br>
+		[ { "$project": { "fieldType": { "$type": "$FIELDTOBECHECKED"  } } } ]<br><br>
+
+		Find without word example:<br>
+		{ "description" : { "$regex" : "^((?!potential).)*$"}}<br><br>
+
+		Logical operator example:<br>
+		{ "$and": [ { "tool" : { "$eq": "Ransomware" } }, { "entry_date.year": { "$gte" : 2010 } } ] }<br><br>
+
+		{ "$and": [ { "monetary_loss.amount" : { "$gte": 500000000 } }, { "entry_date.year": { "$eq": 2016 } } ] }<br><br>
+
+		{ "$and": [ {"monetary_loss.currency": {"$eq": "USD" } }, { "entry_date.year": { "$eq": 2016 } } ] }<br><br>
+		</div>
+		
+		<div id="query_div">
+		<h2>Form the query here.</h2>
+		<form action="/mongo/query/result" method="POST">
+		  <h2>Choose the field:</h2>
+		  <div class = "select_div">
+		  <select name="column">
+			<option disabled selected value> -- select an option -- </option>
+			{%for i in range(0, len1)%} 
+			<option value="{{columnList[i]}}">{{columnList[i]}}</option>
+			{%endfor%} 
+		  </select>
+		  </div>
+		  <br>
+		  
+		  <h2>Choose the query type:</h2>
+		  <div class = "select_div">
+		  <select name="queryType">
+			<option disabled selected value> -- select an option -- </option>
+			{%for i in range(0, len2)%} 
+			<option value="{{queryList[i]}}">{{queryList[i]}}</option>
+			{%endfor%} 
+		  </select>
+		  </div>
+		  <br><br>
+		  
+		  Search term : <input type="text" name="searchTerm" value="Ransomware">  <br><br>
+		  
+		  <button type="button" align="right" class="show_examples" onclick="showAnd()">Do And</button><br><br>
+		  
+		  <div class="and_div" id="and_div" style="display:none;">
+			<input type="hidden" id="doAnd" name="doAnd" value=false>
+			<div class = "select_div">
+			  <select name="column2">
+				<option disabled selected value> -- select an option -- </option>
+				{%for i in range(0, len1)%} 
+				<option value="{{columnList[i]}}">{{columnList[i]}}</option>
+				{%endfor%} 
+			  </select>
+			  </div><br>
+			
+			<div class = "select_div">
+			  <select name="queryType2">
+				<option disabled selected value> -- select an option -- </option>
+				{%for i in range(0, len2)%} 
+				<option value="{{queryList[i]}}">{{queryList[i]}}</option>
+				{%endfor%} 
+			  </select>
+			  </div>
+		  <br><br>
+		 
+		 Search term : <input type="text" name="searchTerm2">  <br><br>
+			
+		</div>
+		  
+		  <input class="submit_button" type="submit" name="formquery" value="Make query"><br><br>
+		</form>
+		</div>
+		
+		<div id="query_box_div" class="query_box_div">
+		<h2>"Columns, Operators and SearchTerms have to be encapsulated in quotes "". Numbers do not. <br>
+		Logical operators : $and $not $or $nor<br>Find query code example : { "Column" : { "$queryType" : "searchTerm" }}</h2>
+		<h2>Type the query here. {{ error }}</h><br>
+		<form action="/mongo/query/result" method="POST" id ="query_box" class="query_box">	
+		<textarea name="querybox" rows ="15" cols="100" wrap="soft"></textarea><br><br>
+		<input class="submit_button" type="submit" value="Make query"/>
+		</form>
+		</div>
+		
+    </body>
+	<footer>
+		<br> <button class="other_page" onclick="window.location.href = '/mongo/query' ;">Do another query</button> <br>
+		<br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+	<script>
+		function showExamples() {
+		  var x = document.getElementById("examples_div");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+		  } else {
+			x.style.display = "block";
+		  }
+		}
+		
+		function showAnd() {
+		  var x = document.getElementById("and_div");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+			document.getElementById("doAnd").value = true;
+		  } else {
+			x.style.display = "block";
+			document.getElementById("doAnd").value = false;
+		  }
+		}
+	</script>	
+</html>

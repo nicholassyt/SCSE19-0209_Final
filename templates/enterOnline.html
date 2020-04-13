@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+        <h1>Enter the details to connect to the Online instance of mongoDB.</h1>
+		<form action='/mongo/connect/online' method="POST">
+			Manual entry of IP Address : <input type="text" name="fullIP"> <br><br>
+			
+			Or <br><br>
+			
+			Server IP : <input type="text" name="serverIP" value="13.250.96.171"> <br>
+			Port number : <input type="text" name="portNum" value="27017"> <br>
+			Database Name : <input type="text" name="dbName" value="Incidents"> <br>
+			User ID : <input type="text" name="userID" value="nicholassyt"> <br>
+			Password : <input type="password" name="password"> <br>
+			<input class="submit_button" type="submit" value="Connect">
+		</form>
+
+    </body>
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

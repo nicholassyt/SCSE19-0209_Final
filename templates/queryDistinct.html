@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+		<h1>The distinct operation has been performed on the {{ column }} column.</h1>
+		<ul>
+		
+		<h2>{{displayResults}}</h2>
+		<h1>Below is the result of the query</h1>
+		<table id="distinct" align="center" class="darkTable">
+		<th>Distinct results</th>
+		{%for i in range(0, len)%} 
+		<tr>
+		<td>{{distinctResults[i]}}</td>
+		</tr>
+		{% endfor %}
+		</table>
+    </body>
+	<footer>
+		<br> <button class="other_page" onclick="window.location.href = '/mongo/query';">Do another query</button> <br>
+		<br> <button class="main_page" onclick="window.location.href = '/index';">Return to main page</button> <br>
+	</footer>
+</html>

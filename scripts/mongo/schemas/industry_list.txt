@@ -1,0 +1,54 @@
+Medical
+Finance
+Information Technology
+Consulting Services
+Telecommunications
+Manufacturing
+Airport Operations
+Tourism
+Publisher
+Other Services
+Insurance
+Delivery Services
+Sport
+Utilities
+Printing Services
+Event Organizers
+Legal Services
+Transport
+Warehousing and Storage
+Entertainment
+Oil and Gas
+Food Establishment
+Employment Services
+Rental
+Real Estate
+Construction
+Security Services
+Advertising
+Retailer
+Education
+Research
+Civil Services
+Associations
+Wholesaler
+Repair and Maintenance service
+Government
+Metal Industry
+Engineering Services
+Libraries and Archives
+Technical Services
+Support Services
+NPO
+Political Organization
+Religious Organization
+BSO
+Social Services
+Contractors
+NGO
+Mining
+Bank
+Agriculture
+Repair and Maintenance Services
+Emergency and Other Relief Services
+Harbour

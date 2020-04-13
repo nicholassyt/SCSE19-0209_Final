@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+        <h1>The clustering graph is shown.</h1><br>
+		<img src="/static/images/{{ image1 }}/" alt="Elbow Image"/> <br><br>
+		
+		<img src="/static/images/{{ image2 }}/" alt="Clustering Image"/> <br>
+		
+		<br> <button class="other_page" onclick="window.location.href = '/visualisation' ;">Return to visualisation</button> <br>
+    </body>
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

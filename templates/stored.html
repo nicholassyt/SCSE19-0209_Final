@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+        <h1>{{ isS }}</h1>
+		<table class="darkTable" align="center">
+		  <tr>
+			<th>JSON File Name</th>
+			<th>Collection</th> 
+		  </tr>
+		  {%for i in range(0, len)%} 
+		  <tr>
+			<td>{{sl[i]}}</td>
+			<td>{{colList[i]}}</td>
+		  </tr>
+		  {%endfor%} 
+		</table><br>
+		<button class="other_page" onclick="window.location.href = '/mongo' ;">Return to mongoDB menu</button> <br>
+    </body>
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

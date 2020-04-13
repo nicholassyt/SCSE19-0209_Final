@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+        <h1>The current collections present in MongoDB are listed. Select the collections you wish to drop.</h1>
+		
+		<div class="drop_div">
+		<form action="/mongo/dropped" method="POST" id = "drop">
+		<table id="to_drop_collections" align="center" class="darkTable">
+		<th>Collections</th>
+		<th>&nbsp;&nbsp;Checked&nbsp;&nbsp;</th>
+		{%for i in range(0, len)%} 
+		<tr>
+		<td>&nbsp;{{colList[i]}}&nbsp;</td>
+		<td><input type="checkbox" name="drop" value="{{colList[i]}}"></td>
+		</tr>
+		{% endfor %}
+		</table>
+		<h2>Press the drop button to drop the selected collections in MongoDB.</h2>
+			<input class="submit_button" type="submit" onclick="return confirmationToDrop()" value="Drop"/>
+		</form>
+		</div>
+		
+		<script type = "text/javascript">
+		function confirmationToDrop() {
+		  return confirm("The collections selected will be dropped! Press Ok to continue or cancel to not drop the collections");
+		}
+		</script>
+		
+    </body>
+	<footer>
+	  <br> <button class="other_page" onclick="window.location.href = '/mongo/connect/select';">Select another action</button> <br>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

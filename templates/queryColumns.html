@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+		<h1>Choose the column to perform the operation on:</h1>
+		<ul>
+		<form action="/mongo/query/{{ op }}" method="POST">
+		  <div class = "select_div">
+		  <select name="column">
+			{%for i in range(0, len)%} 
+			<option value="{{columnList[i]}}">{{columnList[i]}}</option>
+			{%endfor%} 
+		  </select>
+		  </div>
+		  <br><br>
+		  <input class="submit_button" type="submit" value="Select column">
+		</form>
+    </body>
+	<footer>
+		<br> <button class="other_page" onclick="window.location.href = '/mongo/query' ;">Do another query</button> <br>
+		<br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

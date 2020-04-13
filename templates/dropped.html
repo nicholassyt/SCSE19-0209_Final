@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+        <h1>{{ isD }}</h1>
+		<table id="dropped" align="center" class="darkTable">
+		<th>Collections dropped</th>
+		{%for i in range(0, len)%} 
+		<tr>
+		<td>{{dl[i]}}</td>
+		</tr>
+		{% endfor %}
+		</table><br>
+		
+		<button class="other_page" onclick="window.location.href = '/mongo' ;">Return to mongoDB menu</button> <br>
+
+    </body>
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

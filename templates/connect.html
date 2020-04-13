@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+        <h1>Choose the method to connect to mongoDB.</h1>
+		
+		<form action="/mongo/connect/select" method="POST" id="connectionType">
+			<label class="radio">Local
+			  <input type="radio" name="connectionType" value="Local" checked>
+			  <span class="checkmark"></span>
+			</label>
+			<label class="radio">Atlas
+			  <input type="radio" name="connectionType" value="Atlas">
+			  <span class="checkmark"></span>
+			</label>
+			<label class="radio">Online
+			  <input type="radio" name="connectionType" value="Online">
+			  <span class="checkmark"></span>
+			</label>
+			<div class="button_cont" align="center"><input class="submit_button" type="submit" value="Connect" target="_blank" rel="nofollow noopener"></div>
+		</form>
+    </body>
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

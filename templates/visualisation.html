@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+        <h1 class="logo">Welcome to the GUI of {{ title }}</h1>
+		<h2>Please select the action you would like to do.</h2>
+	<div class="menu_div">
+    	<ul>
+        <li id="active"><a href="/">SCSE-2019 Visualisation</a></li>
+        <li><a href="/visualisation/singularGraph">Singular Graph</a></li>
+		<li><a href="/visualisation/multipleGraph">Multiple Graph</a></li>
+        <li><a href="/visualisation/clustering/elbow">Clustering</a></li>
+        <li><a href="/visualisation/regression">Regression</a></li>
+        </ul>
+	</div>
+    </body>
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

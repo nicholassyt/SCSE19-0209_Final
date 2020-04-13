@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+		<h1>Ensure that the json files are in the folder "SCSE19-0209-with-HTML\scripts\mergeSchema\json_to_merge".</h1>
+		
+		<h2>These are the files in the folder currently<h2>
+		
+		<table id="json_files" align="center" class="darkTable">
+		<th>JSON Files</th>
+		{% for file in JSONFiles: %}
+		<tr>
+		<td>{{ file }}</td>
+		</tr>
+		{% endfor %}
+		</table>
+		<br>
+		
+		<form action="/merge" method="POST">
+			<input class="submit_button" type="submit" name="isMerged" id="mergeButton" value="Merge" onclick="change()"/>
+		</form>
+		<h1> The JSON files are {{ isMerged }}.</h2><br>
+    </body>
+	<script>
+	function change(){
+		var elem = document.getElementById("mergeButton");
+		if (elem.value=="Merge") elem.value = "Merging";
+		else elem.value = "Merge";}
+	</script>
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

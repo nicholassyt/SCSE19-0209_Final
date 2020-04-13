@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+		<h1>Please select the collection to query</h1>
+		<form action="/mongo/search/results" method="POST">
+			{%for i in range(0, len)%} 	
+			<label class="radio">Local
+			{{colList[i]}} <input type="radio" name="collectionToQuery" value="{{colList[i]}}" checked><br>
+			  <span class="checkmark"></span>
+			</label>
+			{%endfor%} 
+			
+        <h1>Search</h1>
+		<input type="text" name="searchQuery"/>
+		<input class="submit_button" type="submit" name="search" id="searchButton" value="Search" onclick=change() /><br><br><br>
+		</form>
+		
+		<br> <button class= "show_examples" onclick="showExamples()">Show search examples</button><br><br>
+		
+		<div id="examplesDIV" style="display:none;" overflow-wrap: "break-word;">
+		most monetary loss <br>
+		most records loss <br>
+		country US <br>
+		
+		</div>
+   </body>
+   
+   <script type = "text/javascript">
+		function showExamples() {
+		  var x = document.getElementById("examplesDIV");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+		  } else {
+			x.style.display = "block";
+		  }
+		}
+	
+		function change(){
+			var elem = document.getElementById("searchButton");
+			if (elem.value=="Search") elem.value = "Searching";
+			else elem.value = "Search";}
+	</script>
+	
+	<footer>
+		<br> <button class="other_page" onclick="window.location.href = '/mongo/connect/select';">Select another action</button> <br>
+		<br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

@@ -1,0 +1,69 @@
+[ { "typeId" : "str",											vcdb-1 privacyrights-1 nvdcve-1						
+	"incident_date" : "dict",									vcdb = timeline.incident.day,timeline.incident.month,timeline.incident.time,timeline.incident.year
+		{	"date" : "datetime", 
+			"year" : "yearint",
+			"month" : "monthint", 
+			"day" : "dayint", 
+			"isEstimate" : "estimate"}
+	"resolution_date" : "dict",									add resolution_date value and unit to incident_date to get resolution date and has both value and unit in the same dict
+		{	"date" : "datetime", 
+			"year" : "yearint",
+			"month" : "monthint", 
+			"day" : "dayint", 
+			"isEstimate" : "estimate"
+			"resolution_date.value" : "number"
+			"resolution_date.unit" : "str"}
+	"notification_date" : "dict",								vcdb = plus.timeline.notification.day plus.timeline.notification.month plus.timeline.notification.year are integers
+		{	"date" : "datetime", 
+			"year" : "yearint",
+			"month" : "monthint", 
+			"day" : "dayint", 
+			"isEstimate" : "estimate"}
+	"entry_date" : "dict",										vcdb = plus.created
+		{	"date" : "datetime", 
+			"year" : "yearint",
+			"month" : "monthint", 
+			"day" : "dayint"}
+			
+	"victim" : "str" ,											vcdb = victim.victim_id
+	"industry" : "list of str",									vcdb = victim.industry need convert from naics code to Medical Finance Education
+	"country" : "str",											vcdb = victim.country
+	"state" : "str",											vcdb = victim.state
+	"employee_count" : "str",									vcdb = victim.employee_count
+	
+	"attacker" : "dict"
+		{"name" : "list of str",								vcdb = actor.external.name actor.partner.name actor.partner.name#alot of null values
+		"origin" : "list of str",								vcdb = actor.external.country actor.partner.country actor.partner.country#alot of null values	 	 
+		"role" : "list of str"},								vcdb = actor.external.variety actor.internal.variety
+	
+	"objectives" : "list of str",								vcdb = actor.external.motive ,actor.internal.motive,actor.partner.motive actor.partner.motive targeted impact.loss.variety Espionage or fun
+	"discovered_by" : "list of str",							vcdb = discovery_method.external.variety discovery_method.internal.variety discovery_method.other discovery_method.partner.variety
+	"cve" : "str",												vcdb = action.malware.cve action.hacking.cve
+	
+	"malware_used" : "list of str",										vcdb = action.malware.name
+	"tool" : "list of str",										vcdb = action.social.vector action.malware.vector action.error.vector action.hacking.vector action.physical.vector action.error.variety action.hacking.variety action.malware.variety action.misuse.variety action.physical.variety action.social.variety
+	"vulnerability" : "list of str",
+	"action" : "list of str",
+	
+	
+	"target" : 	"dict"											
+		{"targeted" : "list of str"								vcdb = asset.assets.variety asset.management asset.ownership attribute.confidentiality.data.variety attribute.confidentiality.data_victim
+		"records_affected" : "number",  						vcdb = attribute.confidentiality.data_total 		
+		"assets_affected" : "number"}							vcdb = asset.total_amount
+	
+	"unauthorized_result" : "list of str",						vcdb = action.hacking.result action.malware.result action.misuse.result action.physical.result action.social.result
+	
+	"monetary_loss" : "dict"
+		{"original_currency" : "str",							vcdb = impact.iso_currency_code
+		"unconverted" : "number",								vcdb = impact.overall_amount	
+		"currency" : "USD",										convert to USD
+		"amount" : "number",									vcdb = impact.overall_amount * conversion impact.overall_max_amount * conversion
+		"isEstimate" : "str"},									vcdb = got overall_max_amount is estimate parse through the summary or links to find word estimate or if have field impact.overall_max_amount Yes No
+	
+	"description" : "str",										vcdb = control_failure + summary
+	"info_source" : "str",										vcdb = plus.analyst plus.investigator
+	"source_link" : "list of str",								vcdb = reference
+}]
+#"naics_code" : "number", 										vcdb = victim.industry
+#to access year month day in dates use date.year 
+#resolution_date.resolution_value and resolution_date.resolution_unit

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+        <h1>You are connected to the {{ ct }} instance of MongoDB.</h1>
+		<h2>Select your next action.</h2> <br>
+		<div class="menu_div">
+    	<ul>
+        <li id="active"><a href="/">MongoDB actions</a></li>
+		<li><a href="/mongo/search">Search</a></li>
+		<li><a href="/mongo/query">Query</a></li>
+		<li><a href="/mongo/store">Store</a></li>
+        <li><a href="/mongo/drop">Drop</a></li>
+        </ul>
+		</div>
+    </body>
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/mongo/logout' ;">Logout</button> <br>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

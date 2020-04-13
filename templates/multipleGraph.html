@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+        <h1>Enter the multiple graph parameters. {{ loaded }}</h1>
+		<form action='/visualisation/multipleGraph' method="POST">
+		
+			<div class="upload-btn-wrapper">
+			  <button class="btn">Upload a file</button> <br>
+			  <input type="file" accept=".json" onchange="openFile(event)" name="inputFileName"/> <br>
+			</div><br>
+			<input type='hidden' id = "inputFile" name="inputFile">
+			
+			Graph title: <input type="text" name="graphTitle" value="{{multiParamList[0]}}"> <br>
+			X Label : <input type="text" name="xLabel" value="{{multiParamList[1]}}"> <br>
+			Y Label : <input type="text" name="yLabel" value="{{multiParamList[2]}}"> <br>
+			X Lower Limit : <input type="text" name="xLowerL" value="{{multiParamList[3]}}"> <br>
+			X Upper Limit : <input type="text" name="xUpperL" value="{{multiParamList[4]}}"> <br>
+			Y Lower Limit : <input type="text" name="yLowerL" value="{{multiParamList[5]}}"> <br>
+			Y Upper Limit : <input type="text" name="yUpperL" value="{{multiParamList[6]}}"> <br> For Monetary Loss, a value of 1000000000 is recommended.<br> For Data Records, a value of 10000000000 is recommended.<br><br>
+			Count/Amount Limit : <input type="text" name="caLimit" value="{{multiParamList[7]}}"> For Monetary Loss, a value of 10000000 is recommended.<br> For Data Records, a value of 500000000 is recommended<br>
+	
+			<input align="center" class="submit_button" type="submit" value="Generate Graph">
+		</form>
+		
+		<h1>{{ displayFile }}</h1>
+		<img src="/static/images/{{ image1 }}/" alt="Graph Image"/> <br>
+		
+		<br> <button class="other_page" onclick="window.location.href = '/visualisation' ;">Return to visualisation</button> <br>
+    </body>
+	
+	<script>
+	  var openFile = function(event) {
+		var input = event.target;
+
+		var reader = new FileReader();
+		reader.onload = function(){
+		  var text = reader.result;
+		  document.getElementById("inputFile").value = text;
+		};
+		reader.readAsText(input.files[0]);
+	  };
+	</script>
+
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

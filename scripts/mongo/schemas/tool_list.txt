@@ -1,0 +1,42 @@
+Extortion
+Script or Program
+Information Exchange
+Spam
+Physical Attack
+Skimmer
+Tampering
+Ransomware
+Packet sniffer
+Surveillance
+C2
+Backdoor
+Distributed Tool
+Worm
+Rootkit
+ToolKit
+SQLi
+MitM
+Disabled controls
+XSS
+Ram scraper
+Downloader
+Spyware/Keylogger
+Obscuration
+Path traversal
+User Command
+Email misuse
+Data Tap
+Wiretapping
+Password dumper
+Command shell
+Adware
+Misinformation
+Click fraud and cryptocurrency mining
+Download by malware
+SSI injection
+Buffer overflow
+Adminware
+Session fixation
+OS commanding
+Session prediction
+Session replay

@@ -1,0 +1,18 @@
+Theft of Resources
+Disclosure of Information
+Alter behavior
+Corruption of Information
+Misrepresentation
+Defacement
+Denial of Service
+Modify configuration
+Modify data
+Fraudulent transaction
+Exfiltrate
+Increased Access
+Infiltrate
+Repurpose
+Elevate
+Created account
+Log tampering
+Modify privileges

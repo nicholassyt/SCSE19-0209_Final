@@ -1,0 +1,13 @@
+A parser can be added easily.
+
+The type must be defined in the mergeParameters file.
+
+The parser file must be imported into parsingFunctions.py
+
+The getValuesList method must be modified with an additional if condition to reference the type and to add the new parser.
+
+Functions to declare in the parser are addValuesToList(JSONDict,valuesList) and doParse(json_data)
+
+The doParse function must call pf.parseJSON(json_data,dbType) from parsingFunctions. 
+
+The CurrencyConverter Library is required

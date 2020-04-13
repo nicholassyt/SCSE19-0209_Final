@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+		<h1>Please select the collection to query</h1>
+		<form action="/mongo/query/select" method="POST">
+			
+			{%for i in range(0, len)%} 	
+			<label class="radio">Local
+			{{colList[i]}} <input type="radio" name="collectionToQuery" value="{{colList[i]}}" checked><br>
+			  <span class="checkmark"></span>
+			</label>
+			{%endfor%} 
+     
+		<h1>Select a query operation</h1>
+		<div class = "select_div">
+		<select name="operation">
+			<option value="Find">Find</option>
+			<option value="Distinct">Distinct</option>
+			<option value="Aggregate">Aggregate</option>
+			<option value="PreD">Predefined</option>
+		</select>
+		</div>
+		<br>	
+		<input class="submit_button" type="submit" name="query" value="Make Query"/>
+		</form>
+    </body>
+	<footer>
+		<br> <button class="other_page" onclick="window.location.href = '/mongo/connect/select';">Select another action</button> <br>
+		<br> <button class="main_page" onclick="window.location.href = '/index';">Return to main page</button> <br>
+	</footer>
+</html>

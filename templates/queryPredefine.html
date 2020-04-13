@@ -1,0 +1,217 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+	<body>
+		<h1>Predefined query</h1>
+
+		<div id="query_div">
+		<form action="/mongo/query/result" method="POST">
+		  <h2>Choose the predefined query:</h2>
+		  <div class = "select_div">
+		  <select name="predType">
+			<option disabled selected value> -- select an option -- </option>
+			{%for i in range(0, len1)%} 
+			<option value="{{predTypeList[i]}}">{{predTypeList[i]}}</option>
+			{%endfor%} 
+		  </select>
+		  </div>
+		  
+		  <h2>Choose a specific industry:</h2>
+			  <div class = "select_div">
+			  <select name="industry">
+				<option disabled selected value> -- select an option -- </option>
+				{%for i in range(0, len3)%} 
+				<option value="{{industryList[i]}}">{{industryList[i]}}</option>
+				{%endfor%} 
+			  </select>
+			  </div>
+			  
+		  <h2>Choose a specific tool:</h2>
+		  <div class = "select_div">
+		  <select name="tool">
+			<option disabled selected value> -- select an option -- </option>
+			{%for i in range(0, len2)%} 
+			<option value="{{toolList[i]}}">{{toolList[i]}}</option>
+			{%endfor%} 
+		  </select>
+		  <br>
+		  </div><br>
+		  
+		  <h2>Choose a specific objective:</h2>
+		  <div class = "select_div">
+		  <select name="objective">
+			<option disabled selected value> -- select an option -- </option>
+			{%for i in range(0, len4)%} 
+			<option value="{{objectivesList[i]}}">{{objectivesList[i]}}</option>
+			{%endfor%} 
+		  </select>
+		  <br>
+		  </div><br>
+		  
+		  <h2>Choose a specific unauthorized result:</h2>
+		  <div class = "select_div">
+		  <select name="unAuth">
+			<option disabled selected value> -- select an option -- </option>
+			{%for i in range(0, len5)%} 
+			<option value="{{unAuthList[i]}}">{{unAuthList[i]}}</option>
+			{%endfor%} 
+		  </select>
+		  <br>
+		  </div><br>
+		  
+		  <button type="button" align="right" style="margin:auto;display:block" class="show_examples" onclick="showTools()">Show tools</button>
+		  <div class="toolList_div" id="toolList_div" style="display:none;">
+			<h2>Choose the tools to query:</h2>
+			<button type="button" style="margin:auto;display:block" class="show_examples" onclick="toggleTool(this)">Toggle tools</button><br>
+			<table id="toolList_table" align="center" class="darkTable">
+			<th>Tool Names</th>
+			<th>&nbsp;&nbsp;Checked&nbsp;&nbsp;</th>
+			{%for i in range(0, len2)%} 
+			<tr>
+			<td>&nbsp;{{toolList[i]}}&nbsp;</td>
+			<td><input type="checkbox" name="tools" value="{{toolList[i]}}" checked></td>
+			</tr>
+			{% endfor %}
+			</table>
+			<br></div><br>
+		 
+		<button type="button" align="right" style="margin:auto;display:block" class="show_examples" onclick="showIndustries()">Show industries</button>
+		  <div class="industryList_div" id="industryList_div" style="display:none;">
+			<h2>Choose the industries to query:</h2>
+			<button type="button" style="margin:auto;display:block" class="show_examples" onclick="toggleInd(this)">Toggle industries</button><br>
+			<table id="industryList_table" align="center" class="darkTable">
+			<th>Industries</th>
+			<th>&nbsp;&nbsp;Checked&nbsp;&nbsp;</th>
+			{%for i in range(0, len3)%} 
+			<tr>
+			<td>&nbsp;{{industryList[i]}}&nbsp;</td>
+			<td><input type="checkbox" name="industries" value="{{industryList[i]}}" checked></td>
+			</tr>
+			{% endfor %}
+			</table>
+		 </div><br>
+		 
+		 <button type="button" align="right" style="margin:auto;display:block" class="show_examples" onclick="showObjectives()">Show objectives</button>
+		  <div class="objectivesList_div" id="objectivesList_div" style="display:none;">
+			<h2>Choose the objectives to query:</h2>
+			<button type="button" style="margin:auto;display:block" class="show_examples" onclick="toggleObj(this)">Toggle objectives</button><br>
+			<table id="objectivesList_table" align="center" class="darkTable">
+			<th>Objectives</th>
+			<th>&nbsp;&nbsp;Checked&nbsp;&nbsp;</th>
+			{%for i in range(0, len4)%} 
+			<tr>
+			<td>&nbsp;{{objectivesList[i]}}&nbsp;</td>
+			<td><input type="checkbox" name="objectives" value="{{objectivesList[i]}}" checked></td>
+			</tr>
+			{% endfor %}
+			</table>
+		 </div><br>
+		 
+		 <button type="button" align="right" style="margin:auto;display:block" class="show_examples" onclick="showUnAuth()">Show unauthorized results</button>
+		  <div class="unAuthList_div" id="unAuthList_div" style="display:none;">
+			<h2>Choose the unauthorized results to query:</h2>
+			<button type="button" style="margin:auto;display:block" class="show_examples" onclick="toggleUnAuth(this)">Toggle unauthorized results</button><br>
+			<table id="unAuthList_table" align="center" class="darkTable">
+			<th>Unauthorized Results</th>
+			<th>&nbsp;&nbsp;Checked&nbsp;&nbsp;</th>
+			{%for i in range(0, len5)%} 
+			<tr>
+			<td>&nbsp;{{unAuthList[i]}}&nbsp;</td>
+			<td><input type="checkbox" name="unAuths" value="{{unAuthList[i]}}" checked></td>
+			</tr>
+			{% endfor %}
+			</table>
+		 </div><br>
+		  
+		  Start year : <input type="text" name="startYear" value="2013">  <br><br>
+
+		  <input class="submit_button" type="submit" name="formquery" value="Make query"><br><br>
+		</form>
+		</div>
+		
+    </body>
+	<footer>
+	  <br> <button class="other_page" onclick="window.location.href = '/mongo/query' ;">Do another query</button> <br>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+	<script>
+	
+		function toggleTool(source) {
+		  checkboxes = document.getElementsByName('tools');
+		  for(var i=0, n=checkboxes.length;i<n;i++) {
+			if (checkboxes[i].checked) {
+				checkboxes[i].checked = false; }
+			else {
+				checkboxes[i].checked = true;}	
+		  }
+		}
+		
+		function toggleInd(source) {
+		  checkboxes = document.getElementsByName('industries');
+		  for(var i=0, n=checkboxes.length;i<n;i++) {
+			if (checkboxes[i].checked) {
+				checkboxes[i].checked = false; }
+			else {
+				checkboxes[i].checked = true;}	
+		  }
+		}
+		
+		function toggleObj(source) {
+		  checkboxes = document.getElementsByName('objectives');
+		  for(var i=0, n=checkboxes.length;i<n;i++) {
+			if (checkboxes[i].checked) {
+				checkboxes[i].checked = false; }
+			else {
+				checkboxes[i].checked = true;}	
+		  }
+		}
+		
+		function toggleUnAuth(source) {
+		  checkboxes = document.getElementsByName('unAuths');
+		  for(var i=0, n=checkboxes.length;i<n;i++) {
+			if (checkboxes[i].checked) {
+				checkboxes[i].checked = false; }
+			else {
+				checkboxes[i].checked = true;}	
+		  }
+		}
+		
+		function showTools() {
+		  var x = document.getElementById("toolList_div");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+		  } else {
+			x.style.display = "block";
+		  }
+		}
+		
+		function showObjectives() {
+		  var x = document.getElementById("objectivesList_div");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+		  } else {
+			x.style.display = "block";
+		  }
+		}
+		
+		function showIndustries() {
+		  var x = document.getElementById("industryList_div");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+		  } else {
+			x.style.display = "block";
+		  }
+		}
+		
+		function showUnAuth() {
+		  var x = document.getElementById("unAuthList_div");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+		  } else {
+			x.style.display = "block";
+		  }
+		}
+	</script>	
+</html>

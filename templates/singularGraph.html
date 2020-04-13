@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+		<h1>Upload a file or make an aggregation query. If there is no image after pressing generate graph, the X or Y axis may have been selected wrongly.</h1>
+        <h1>Enter the singular graph parameters. {{ loaded }}</h1>
+		<form action='/visualisation/singularGraph' method="POST">
+		
+			<div class="upload-btn-wrapper">
+			  <button class="btn">Upload a file</button> <br>
+			  <input type="file" accept=".json" onchange="openFile(event)" name="inputFileName"/> <br>
+			</div><br>
+			<input type='hidden' id = "inputFile" name="inputFile">
+			
+			<div class = "select_div">
+			Select the graph type: <select name="graphType">
+			<option value="bar">bar</option>
+			<option value="line">line</option>
+			<option value="scatter">scatter</option>
+			<option value="box">box</option>
+			<option value="violin">violin</option>
+			<option value="mulLine">Multi-line</option>
+			</select><br><br>
+			</div> <br>
+			
+			Graph title: <input type="text" name="graphTitle" value="{{singleParamList[0]}}"> <br>
+			X Axis: <input type="text" name="xAxis" value="{{singleParamList[1]}}"> <br>
+			Y Axis: <input type="text" name="yAxis" value="{{singleParamList[2]}}"> <br>
+			X Label : <input type="text" name="xLabel" value="{{singleParamList[3]}}"> <br>
+			Y Label : <input type="text" name="yLabel" value="{{singleParamList[4]}}"> <br>
+			Y Lower Limit : <input type="text" name="yLowerL" value="{{singleParamList[5]}}"> <br>
+			Y Upper Limit : <input type="text" name="yUpperL" value="{{singleParamList[6]}}"> <br>
+	
+			<input align="center" class="submit_button" type="submit" value="Generate Graph">
+		</form>
+		
+		<h1>{{ displayFile }}</h1>
+		<img src="/static/images/{{ image1 }}/" alt="Graph Image"/> <br>
+		
+		<br> <button class="other_page" onclick="window.location.href = '/visualisation' ;">Return to visualisation</button> <br>
+    </body>
+	
+	<script>
+	  var openFile = function(event) {
+		var input = event.target;
+
+		var reader = new FileReader();
+		reader.onload = function(){
+		  var text = reader.result;
+		  document.getElementById("inputFile").value = text;
+		};
+		reader.readAsText(input.files[0]);
+	  };
+	</script>
+
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>

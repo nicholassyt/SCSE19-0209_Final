@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+		<h1>The query is completed and the file folder will be opened.<br>Visualisation can now be done.</h1>
+		
+		<h2>{{displayResults}}</h2>
+		<table id="result_table" class="darkTableL">
+			<th>Results</th>
+			{%for i in range(0, len1)%} 
+			<tr>
+			<td>
+			<table id="internal">
+				{%for key, value in resultList[i].items()%}
+					{% if value != None %}
+						<tr>&nbsp;<span style="color: red">{{key}}</span> : {{value}}&nbsp;<tr><br>
+					{% endif %}
+				{% endfor %}
+			</table>
+			</td>
+			</tr>
+			{% endfor %}
+		</table>
+	
+		<br> <button class="other_page" onclick="window.location.href = '/visualisation' ;">Visualisation</button> <br>
+    </body>
+	<footer>
+		<br> <button class="other_page" onclick="window.location.href = '/mongo/connect/select';">Select another action</button> <br>
+		<br> <button class="main_page" onclick="window.location.href = '/index';">Return to main page</button> <br>
+	</footer>
+</html>

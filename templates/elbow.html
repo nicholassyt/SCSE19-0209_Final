@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+		<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+    </head>
+    <body>
+        <h1>Press the button to generate the elbow graph. {{ loaded }}</h1>
+		<div>
+		<form action="/visualisation/clustering/elbow" method="POST">
+			<div class="upload-btn-wrapper">
+			  <button class="btn">Upload a file</button>
+			  <input type="file" accept=".json" onchange="openFile(event)" name="inputFileName"/> <br>
+			</div><br><br>
+			<input type='hidden' id = "inputFile" name="inputFile">
+			<input class="submit_button" type="submit" value="Generate Elbow"/> <br>
+		</form>
+		</div>
+		
+		<img src="/static/images/{{ image1 }}/" alt="Elbow Image"/><br><br>
+		
+		<form action="/visualisation/clustering" method="POST" onSubmit="return validateForm()">
+		Enter number of clusters:<input id="numOfC"type="text" name="numOfClusters" value="3"><br>
+		<input type='hidden' id = "hFileInput" name="hFileInput" value = "{{ hfi }}">
+		<input class="submit_button" type="submit" value="Submit number of clusters">
+		</form>
+		
+		<br> <button class="other_page" onclick="window.location.href = '/visualisation' ;">Return to visualisation</button> <br>
+    </body>
+	
+	<script>
+	  function validateForm() {
+		  var numOfC=document.getElementById("numOfC").value;
+		  if (numOfC==""){
+			  alert("The number of clusters must be entered.");
+			  return false;
+		  }
+	  }
+
+	  var openFile = function(event) {
+		var input = event.target;
+
+		var reader = new FileReader();
+		reader.onload = function(){
+		  var text = reader.result;
+		  document.getElementById("inputFile").value = text;
+		};
+		reader.readAsText(input.files[0]);
+	  };
+	</script>
+	<footer>
+	  <br> <button class="main_page" onclick="window.location.href = '/index' ;">Return to main page</button> <br>
+	</footer>
+</html>
