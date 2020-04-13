@@ -1,0 +1,37 @@
+An EC2 instance can be hosted on Amazon Web Services.
+
+After creating an account, select Ubuntu-64 and host it.
+The security group selected should allow all connections from the current IP address.
+
+Ensure a key pair is created for the instance.
+Download the key and place it into a secure folder.
+
+Download putty at https://www.putty.org/
+With putty, connect to the instance with the IPv4 public IP.
+Paste the IP, select Port 22 and SSH
+Under Connection/Auth, browse for the key and press Open.
+Run putty to get to the console of Ubuntu.
+
+Install docker by typing the following commands into Ubuntu
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt install docker.io
+
+Execute the mongoDB container by typing the following commands into Ubuntu
+docker run -d -p 27017-27019:27017-27019 --name mongoDB mongo:4.2
+docker exec -it mongoDB bash
+mongo
+
+The user will now be at the mongoDB Shell. The next step is to create basic user accounts.
+
+The admin account:
+use admin
+db.createUser({user: "admin", pwd: "adminPass321", roles: [{role: "userAdminAnyDatabase", db: "admin"}]})
+
+The user account:
+use DBNAME 
+db.createUser({user: "UserName", pwd: "Password", roles: [{role: "readWrite", db: "DBNAME"}]})
+
+The database can now be accessed with mongoDB queries by entering the correct user details and IPv4 address.
+Ensure that the network the program is executed does not interfere with data flow.

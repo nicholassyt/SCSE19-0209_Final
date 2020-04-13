@@ -1,0 +1,8 @@
+Python 3 libraries
+
+pip install pymongo
+pip install CurrencyConverter
+pip install Flask
+pip install scikit-learn
+pip install seaborn
+pip install matplotlib

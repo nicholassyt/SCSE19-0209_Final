@@ -1,0 +1,20 @@
+The JSONs that will be imported must be stored into the jsons folder.
+
+Ensure the Incidents database is created via the MongoDB command shell.
+The command shell for a Local instance can be accessed with the shortcut or via C:\Program Files\MongoDB\Server\4.0\bin. 
+The command shell for an Online instance can be accessed through the SSH protocol. putty can be used to access the server.
+The command 'use DBName' can be entered to create the database. 
+
+Modify parameters.py for different server configurations.
+Ensure that the correct credentials are entered for an Online Instance. 
+
+The commandline must point to the SCSE19-0209 folder.
+Run the command python mongo start the program.
+The GUI interface will display the various operations.
+The database must be populated.
+Select Store to store the JSON files, creating the relevant collections.
+Select Drop to clear the database if required.
+
+Select Query to use the GUI interface to enter queries and to obtain relevant results.
+Open the schemas folder to view the various schemas of the collections in the database. 
+Examples of queries are found the search_examples text file.

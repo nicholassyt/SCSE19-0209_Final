@@ -1,0 +1,24 @@
+Installing Mongodb
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+
+Execute the installer. There is a choice to either run MongoDB as a service or not. Select run service as local domain user. The local machine credentials (username and password) have to be entered.
+
+The Account domain should be left as '.'.
+Account Name should be the 'username' of your system/device. And Account password should be the password of your system/device.
+https://stackoverflow.com/questions/52092528/invalid-domain-user-password-while-installing-mongodb-on-windows10
+
+MongoDB requires a data directory.
+It can be created using the command : md \data\db
+
+C:\Program Files\MongoDB\Server\4.0\bin is the location of mongod.exe and mongo.exe
+Run MongoDB as a windows service or execute mongod.exe to operate the server when required.
+
+Execute mongo.exe for the command line interface to create the relevant collections.
+
+Some example commands for the command line interface of MongoDB are listed
+show dbs				//show all databases in this MongoDB instance
+use dbName				//will create the database if it is not created
+db.createCollection("collectionName");	//will create the collection if it is not created. Case sensitive
+db.<collectionName>.find();		//basic search command for the collection
+db.<collectionName>.drop()		//command to drop the named collection
+drop dbName				//command to drop the named db

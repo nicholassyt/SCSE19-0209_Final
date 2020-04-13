@@ -2,6 +2,9 @@
 
 Project title: SCSE19-0209 Open source intelligence gathering and data visualisation
 
+MongoDB installation:
+Instructions can be found in the Installation Instructions folder.
+
 Ensure the MongoDB server is started.
 Execute python SCSE19-0209_OSIGDV in the command line
 Open the browser and navigate to http://127.0.0.1:5000/
