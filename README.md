@@ -1,6 +1,6 @@
 # SCSE19-0209_Final
 
-Project title: SCSE19-0209 Open source intelligence gathering and data visualisation
+Project title: SCSE19-0209 Open source intelligence gathering and cyber security incident data visualisation
 
 Python 3 libraries required:
 
